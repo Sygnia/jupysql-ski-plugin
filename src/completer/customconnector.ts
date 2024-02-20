@@ -11,18 +11,25 @@ import {
 } from '@jupyterlab/completer';
 
 import { keywords } from './keywords.json';
+import {syntaxTree} from "@codemirror/language";
 
 /**
  * A custom connector for completion handlers.
  */
 export class SQLCompleterProvider implements ICompletionProvider {
   constructor() {
+    console.log("buidling completer")
     // Build the completion item from the JSON file.
     this._items = keywords.map(item => {
       return {
         label: item.value,
         type: 'keyword'
       }
+    })
+    this._items.push({
+      label: 'aws_cloud_trail',
+        type: 'data source',
+      documentation: 'this is an interesting source!'
     })
   }
 
@@ -31,6 +38,7 @@ export class SQLCompleterProvider implements ICompletionProvider {
    * @param context - additional information about context of completion request
    */
   async isApplicable(context: ICompletionContext): Promise<boolean> {
+    console.log("applicable")
     return true;
   }
 
@@ -73,13 +81,29 @@ namespace Private {
     baseItems: CompletionHandler.ICompletionItem[]
   ): CompletionHandler.ICompletionItemsReply {
     // Find the token at the cursor
-    const token = editor.getTokenAtCursor();
+    console.log(editor)
+    // @ts-ignore
+    const tree = syntaxTree(editor.state);
+    // @ts-ignore
+    const inner = tree.resolveInner(editor.state.selection.main.head, -1);
+
+    console.log(inner)
+    // const token = editor.getTokenAtCursor();
+    // @ts-ignore
+    let value = editor.state.sliceDoc(inner.from, inner.to)
+
+    let token = {
+              value: value,
+              offset: inner.from,
+              type: inner.name
+            }
 
     // Find all the items containing the token value.
     let items = baseItems.filter(
       item => item.label.toLowerCase().includes(token.value.toLowerCase())
     );
 
+    // let items = baseItems
     // Sort the items.
     items = items.sort((a, b) => {
       return sortItems(
@@ -89,6 +113,11 @@ namespace Private {
       );
     });
 
+    console.log({
+      start: token.offset,
+      end: token.offset + token.value.length,
+      items: items
+    })
     return {
       start: token.offset,
       end: token.offset + token.value.length,

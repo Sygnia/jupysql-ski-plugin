@@ -1,5 +1,6 @@
 {
   "keywords": [
+    { "value": "ILIKE" },
     { "value": "ADD" },
     { "value": "ADD CONSTRAINT" },
     { "value": "ALL" },
