@@ -1,0 +1,3516 @@
+{
+  "id": "snowflake",
+  "lang": "en",
+  "keywords": [
+    {
+      "name": "account"
+    },
+    {
+      "name": "accounts"
+    },
+    {
+      "name": "all"
+    },
+    {
+      "name": "alter",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/alter.html"
+    },
+    {
+      "name": "and"
+    },
+    {
+      "name": "any"
+    },
+    {
+      "name": "as",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as.html"
+    },
+    {
+      "name": "asc"
+    },
+    {
+      "name": "begin",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/begin.html"
+    },
+    {
+      "name": "between",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/between.html"
+    },
+    {
+      "name": "by"
+    },
+    {
+      "name": "case",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/case.html"
+    },
+    {
+      "name": "check"
+    },
+    {
+      "name": "clone"
+    },
+    {
+      "name": "cluster"
+    },
+    {
+      "name": "column"
+    },
+    {
+      "name": "columns"
+    },
+    {
+      "name": "comment",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/comment.html"
+    },
+    {
+      "name": "commit",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/commit.html"
+    },
+    {
+      "name": "connect",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/connect-by.html"
+    },
+    {
+      "name": "connection"
+    },
+    {
+      "name": "constraint"
+    },
+    {
+      "name": "copy"
+    },
+    {
+      "name": "create"
+    },
+    {
+      "name": "cross"
+    },
+    {
+      "name": "current"
+    },
+    {
+      "name": "database"
+    },
+    {
+      "name": "databases"
+    },
+    {
+      "name": "delete"
+    },
+    {
+      "name": "desc"
+    },
+    {
+      "name": "describe"
+    },
+    {
+      "name": "develop"
+    },
+    {
+      "name": "directive"
+    },
+    {
+      "name": "directives"
+    },
+    {
+      "name": "distinct"
+    },
+    {
+      "name": "downstream"
+    },
+    {
+      "name": "drop",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/drop.html"
+    },
+    {
+      "name": "dynamic"
+    },
+    {
+      "name": "else"
+    },
+    {
+      "name": "end"
+    },
+    {
+      "name": "exclusive"
+    },
+    {
+      "name": "exists"
+    },
+    {
+      "name": "explain",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/explain.html"
+    },
+    {
+      "name": "false"
+    },
+    {
+      "name": "file"
+    },
+    {
+      "name": "following"
+    },
+    {
+      "name": "for"
+    },
+    {
+      "name": "foreign"
+    },
+    {
+      "name": "format"
+    },
+    {
+      "name": "formats"
+    },
+    {
+      "name": "from",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/from.html"
+    },
+    {
+      "name": "full"
+    },
+    {
+      "name": "function",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/create-function.html"
+    },
+    {
+      "name": "functions",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/create-function.html"
+    },
+    {
+      "name": "grant"
+    },
+    {
+      "name": "grants"
+    },
+    {
+      "name": "group"
+    },
+    {
+      "name": "gscluster"
+    },
+    {
+      "name": "having",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/having.html"
+    },
+    {
+      "name": "hybrid"
+    },
+    {
+      "name": "identified"
+    },
+    {
+      "name": "ilike",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ilike.html"
+    },
+    {
+      "name": "immediate"
+    },
+    {
+      "name": "in",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/in.html"
+    },
+    {
+      "name": "include"
+    },
+    {
+      "name": "increment"
+    },
+    {
+      "name": "index"
+    },
+    {
+      "name": "indexes"
+    },
+    {
+      "name": "inner"
+    },
+    {
+      "name": "insert",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/insert.html"
+    },
+    {
+      "name": "install"
+    },
+    {
+      "name": "intersect",
+      "url": "https://docs.snowflake.com/en/sql-reference/operators-query.html#intersect"
+    },
+    {
+      "name": "into",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/into.html"
+    },
+    {
+      "name": "is",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is.html"
+    },
+    {
+      "name": "issue"
+    },
+    {
+      "name": "join",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/join.html"
+    },
+    {
+      "name": "key"
+    },
+    {
+      "name": "lateral"
+    },
+    {
+      "name": "left",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/left.html"
+    },
+    {
+      "name": "like",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/like.html"
+    },
+    {
+      "name": "limit",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/limit.html"
+    },
+    {
+      "name": "list",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/list.html"
+    },
+    {
+      "name": "lock",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/show-locks.html"
+    },
+    {
+      "name": "locks"
+    },
+    {
+      "name": "long"
+    },
+    {
+      "name": "managed"
+    },
+    {
+      "name": "materialized"
+    },
+    {
+      "name": "maxextents"
+    },
+    {
+      "name": "merge",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/merge.html"
+    },
+    {
+      "name": "minus",
+      "url": "https://docs.snowflake.com/en/sql-reference/operators-query.html#minus-except"
+    },
+    {
+      "name": "modify"
+    },
+    {
+      "name": "monitor"
+    },
+    {
+      "name": "monitors"
+    },
+    {
+      "name": "natural"
+    },
+    {
+      "name": "network"
+    },
+    {
+      "name": "not"
+    },
+    {
+      "name": "null"
+    },
+    {
+      "name": "objects"
+    },
+    {
+      "name": "of"
+    },
+    {
+      "name": "on"
+    },
+    {
+      "name": "option"
+    },
+    {
+      "name": "or"
+    },
+    {
+      "name": "order"
+    },
+    {
+      "name": "organization"
+    },
+    {
+      "name": "outer"
+    },
+    {
+      "name": "ownership"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "packages"
+    },
+    {
+      "name": "parameters"
+    },
+    {
+      "name": "patch"
+    },
+    {
+      "name": "patches"
+    },
+    {
+      "name": "pipe"
+    },
+    {
+      "name": "pipes"
+    },
+    {
+      "name": "policies"
+    },
+    {
+      "name": "policy"
+    },
+    {
+      "name": "primary"
+    },
+    {
+      "name": "privileges"
+    },
+    {
+      "name": "put",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/put.html"
+    },
+    {
+      "name": "qualify",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/qualify.html"
+    },
+    {
+      "name": "regexp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp.html"
+    },
+    {
+      "name": "references"
+    },
+    {
+      "name": "refresh"
+    },
+    {
+      "name": "release"
+    },
+    {
+      "name": "releases"
+    },
+    {
+      "name": "remove",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/remove.html"
+    },
+    {
+      "name": "rename"
+    },
+    {
+      "name": "resource"
+    },
+    {
+      "name": "result"
+    },
+    {
+      "name": "resume"
+    },
+    {
+      "name": "revoke"
+    },
+    {
+      "name": "right",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/right.html"
+    },
+    {
+      "name": "rlike",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rlike.html"
+    },
+    {
+      "name": "role"
+    },
+    {
+      "name": "roles"
+    },
+    {
+      "name": "rollback",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/rollback.html"
+    },
+    {
+      "name": "row"
+    },
+    {
+      "name": "rows"
+    },
+    {
+      "name": "sample"
+    },
+    {
+      "name": "schema"
+    },
+    {
+      "name": "schemas"
+    },
+    {
+      "name": "secret"
+    },
+    {
+      "name": "select",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/select.html"
+    },
+    {
+      "name": "sequence"
+    },
+    {
+      "name": "sequences"
+    },
+    {
+      "name": "session"
+    },
+    {
+      "name": "set",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/set.html"
+    },
+    {
+      "name": "share"
+    },
+    {
+      "name": "shares"
+    },
+    {
+      "name": "show",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/show.html"
+    },
+    {
+      "name": "some"
+    },
+    {
+      "name": "stage"
+    },
+    {
+      "name": "stages"
+    },
+    {
+      "name": "start"
+    },
+    {
+      "name": "stream"
+    },
+    {
+      "name": "streamlit"
+    },
+    {
+      "name": "streamlits"
+    },
+    {
+      "name": "streams"
+    },
+    {
+      "name": "suspend"
+    },
+    {
+      "name": "table"
+    },
+    {
+      "name": "tables"
+    },
+    {
+      "name": "tablesample"
+    },
+    {
+      "name": "tag"
+    },
+    {
+      "name": "tags"
+    },
+    {
+      "name": "target_lag"
+    },
+    {
+      "name": "task"
+    },
+    {
+      "name": "tasks"
+    },
+    {
+      "name": "then"
+    },
+    {
+      "name": "to"
+    },
+    {
+      "name": "transactions"
+    },
+    {
+      "name": "trigger"
+    },
+    {
+      "name": "true"
+    },
+    {
+      "name": "undrop",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop.html"
+    },
+    {
+      "name": "union",
+      "url": "https://docs.snowflake.com/en/sql-reference/operators-query.html#union-all"
+    },
+    {
+      "name": "unique"
+    },
+    {
+      "name": "unset",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/unset.html"
+    },
+    {
+      "name": "update",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/update.html"
+    },
+    {
+      "name": "upgrade"
+    },
+    {
+      "name": "use",
+      "url": "https://docs.snowflake.com/en/sql-reference/sql/use.html"
+    },
+    {
+      "name": "user"
+    },
+    {
+      "name": "users"
+    },
+    {
+      "name": "using"
+    },
+    {
+      "name": "values",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/values.html"
+    },
+    {
+      "name": "variables"
+    },
+    {
+      "name": "version"
+    },
+    {
+      "name": "versioned"
+    },
+    {
+      "name": "versions"
+    },
+    {
+      "name": "view"
+    },
+    {
+      "name": "views"
+    },
+    {
+      "name": "warehouse"
+    },
+    {
+      "name": "warehouses"
+    },
+    {
+      "name": "when"
+    },
+    {
+      "name": "whenever"
+    },
+    {
+      "name": "where",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/where.html"
+    },
+    {
+      "name": "with",
+      "url": "https://docs.snowflake.com/en/sql-reference/constructs/with.html"
+    }
+  ],
+  "functions": [
+    {
+      "name": "abs",
+      "args": "<num_expr>",
+      "desc": "Returns the absolute value of a numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/abs.html"
+    },
+    {
+      "name": "acos",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse cosine (arc cosine) of its input; the result is a number in the interval [0, pi]",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/acos.html"
+    },
+    {
+      "name": "acosh",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse (arc) hyperbolic cosine of its input",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/acosh.html"
+    },
+    {
+      "name": "add_months",
+      "args": "<date_or_timestamp_expr>, <num_months_expr>",
+      "desc": "Adds or subtracts a specified number of months to a date or timestamp, preserving the end-of-month information",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/add_months.html"
+    },
+    {
+      "name": "all_user_names",
+      "args": "",
+      "desc": "Returns all user names in the current account",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/all_user_names.html"
+    },
+    {
+      "name": "any_value",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns some value of the expression from the group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/any_value.html"
+    },
+    {
+      "name": "approx_count_distinct",
+      "args": "[ DISTINCT ] <expr1>  [, ... ]",
+      "desc": "Uses HyperLogLog to return an approximation of the distinct cardinality of the input ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_count_distinct.html"
+    },
+    {
+      "name": "approx_percentile",
+      "args": "<expr>, <percentile>",
+      "desc": "Returns an approximated value for the desired percentile ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile.html"
+    },
+    {
+      "name": "approx_percentile_accumulate",
+      "args": "<expr>",
+      "desc": "Returns the internal representation of the t-Digest state (as a JSON object) at the end of aggregation",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile_accumulate.html"
+    },
+    {
+      "name": "approx_percentile_combine",
+      "args": "<state>",
+      "desc": "Combines (merges) percentile input states into a single output state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile_combine.html"
+    },
+    {
+      "name": "approx_percentile_estimate",
+      "args": "<state>, <percentile>",
+      "desc": "Returns the desired approximated percentile value for the specified t-Digest state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile_estimate.html"
+    },
+    {
+      "name": "approx_top_k",
+      "args": "<expr> [, <k> [, <counters> ] ]",
+      "desc": "Uses Space-Saving to return an approximation of the most frequent values in the input, along with their approximate frequencies",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k.html"
+    },
+    {
+      "name": "approx_top_k_accumulate",
+      "args": "<expr>, <counters>",
+      "desc": "Returns the Space-Saving summary at the end of aggregation",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_accumulate.html"
+    },
+    {
+      "name": "approx_top_k_combine",
+      "args": "<state> [, <counters> ]",
+      "desc": "Combines (merges) input states into a single output state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_combine.html"
+    },
+    {
+      "name": "approx_top_k_estimate",
+      "args": "<state> [, <k> ]",
+      "desc": "Returns the approximate most frequent values and their estimated frequency for the given Space-Saving state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_estimate.html"
+    },
+    {
+      "name": "approximate_jaccard_index",
+      "args": "[ DISTINCT ] <expr> [, ... ]",
+      "desc": "Returns an estimation of the similarity (Jaccard index) of inputs based on their MinHash states",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approximate_jaccard_index.html"
+    },
+    {
+      "name": "approximate_similarity",
+      "args": "[ DISTINCT ] <expr> [, ... ]",
+      "desc": "Returns an estimation of the similarity (Jaccard index) of inputs based on their MinHash states",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/approximate_similarity.html"
+    },
+    {
+      "name": "array_agg",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the input values, pivoted into an ARRAY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_agg.html"
+    },
+    {
+      "name": "array_append",
+      "args": "<array>, <new_element>",
+      "desc": "Returns an array containing all elements from the source array as well as the new element",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_append.html"
+    },
+    {
+      "name": "array_cat",
+      "args": "<array1>, <array2>",
+      "desc": "Returns a concatenation of two arrays",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_cat.html"
+    },
+    {
+      "name": "array_compact",
+      "args": "<array1>",
+      "desc": "Returns a compacted array with missing and null values removed, effectively converting sparse arrays into dense arrays",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_compact.html"
+    },
+    {
+      "name": "array_construct",
+      "args": "[ <expr1> ] [, <expr2> [, ... ] ]",
+      "desc": "Returns an array constructed from zero, one, or more inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_construct.html"
+    },
+    {
+      "name": "array_construct_compact",
+      "args": "[ <expr1> ] [, <expr2> [, ... ] ]",
+      "desc": "Returns an array constructed from zero, one, or more inputs; the constructed array omits any NULL input values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_construct_compact.html"
+    },
+    {
+      "name": "array_contains",
+      "args": "<variant>, <array>",
+      "desc": "Returns True if the specified variant is found in the specified array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_contains.html"
+    },
+    {
+      "name": "array_distinct",
+      "args": "<array>",
+      "desc": "Returns a new ARRAY that contains only the distinct elements from the input ARRAY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_distinct.html"
+    },
+    {
+      "name": "array_except",
+      "args": "<source_array>, <array_of_elements_to_exclude>",
+      "desc": "Returns a new ARRAY that contains the elements from one input ARRAY that are not in another input ARRAY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_except.html"
+    },
+    {
+      "name": "array_insert",
+      "args": "<array>, <pos>, <new_element>",
+      "desc": "Returns an array containing all elements from the source array as well as the new element",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_insert.html"
+    },
+    {
+      "name": "array_intersection",
+      "args": "<array1>, <array2>",
+      "desc": "Returns an array that contains the matching elements in the two input arrays",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_intersection.html"
+    },
+    {
+      "name": "array_position",
+      "args": "<variant_expr>, <array>",
+      "desc": "Returns the index of the first occurrence of an element in an array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_position.html"
+    },
+    {
+      "name": "array_prepend",
+      "args": "<array>, <new_element>",
+      "desc": "Returns an array containing the new element as well as all elements from the source array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_prepend.html"
+    },
+    {
+      "name": "array_size",
+      "args": "<array>",
+      "desc": "Returns the size of the input array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_size.html"
+    },
+    {
+      "name": "array_slice",
+      "args": "<array>, <from>, <to>",
+      "desc": "Returns an array constructed from a specified subset of elements of the input array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_slice.html"
+    },
+    {
+      "name": "array_to_string",
+      "args": "<array>, <separator_string>",
+      "desc": "Returns an input array converted to a string by casting all values to strings (using TO_VARCHAR) and concatenating them (using the string from the second argument to separate the elements)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_to_string.html"
+    },
+    {
+      "name": "to_varchar",
+      "args": "<expr>",
+      "desc": "Converts the input expression to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_char.html"
+    },
+    {
+      "name": "array_union_agg",
+      "args": "<column>",
+      "desc": "Returns an ARRAY that contains the union of the distinct values from the input ARRAYs in a column",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_union_agg.html"
+    },
+    {
+      "name": "array_unique_agg",
+      "args": "<column>",
+      "desc": "Returns an ARRAY that contains all of the distinct values from the specified column",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/array_unique_agg.html"
+    },
+    {
+      "name": "arrays_overlap",
+      "args": "<array1>, <array2>",
+      "desc": "Compares whether two arrays have at least one element in common",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/arrays_overlap.html"
+    },
+    {
+      "name": "as_array",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to an array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_array.html"
+    },
+    {
+      "name": "as_binary",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a binary string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_binary.html"
+    },
+    {
+      "name": "as_boolean",
+      "args": "<variant>",
+      "desc": "Casts a VARIANT value to a BOOLEAN value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_boolean.html"
+    },
+    {
+      "name": "as_char",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_char-varchar.html"
+    },
+    {
+      "name": "as_date",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a date",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_date.html"
+    },
+    {
+      "name": "as_decimal",
+      "args": "<variant_expr> [, <precision> [, <scale> ] ]",
+      "desc": "Casts a VARIANT value to a fixed-point decimal (does not match floating-point values), with optional precision and scale",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_decimal-number.html"
+    },
+    {
+      "name": "as_double",
+      "args": "<variant>",
+      "desc": "Casts a VARIANT value to a floating-point value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_double-real.html"
+    },
+    {
+      "name": "as_integer",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to an integer",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_integer.html"
+    },
+    {
+      "name": "as_object",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to an object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_object.html"
+    },
+    {
+      "name": "as_time",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a time value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_time.html"
+    },
+    {
+      "name": "as_timestamp_ltz",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a TIMESTAMP value with local time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_timestamp.html"
+    },
+    {
+      "name": "as_timestamp_ntz",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a TIMESTAMP value with no time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_timestamp.html"
+    },
+    {
+      "name": "as_timestamp_tz",
+      "args": "<variant_expr>",
+      "desc": "Casts a VARIANT value to a TIMESTAMP value with time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/as_timestamp.html"
+    },
+    {
+      "name": "ascii",
+      "args": "<input>",
+      "desc": "Returns the ASCII code for the first character of a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ascii.html"
+    },
+    {
+      "name": "asin",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse sine (arc sine) of its argument; the result is a number in the interval [-pi/2, pi/2]",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/asin.html"
+    },
+    {
+      "name": "asinh",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse (arc) hyperbolic sine of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/asinh.html"
+    },
+    {
+      "name": "atan",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse tangent (arc tangent) of its argument; the result is a number in the interval [-pi, pi]",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/atan.html"
+    },
+    {
+      "name": "atan2",
+      "args": "<y>, <x>",
+      "desc": "Computes the inverse tangent (arc tangent) of the ratio of its two arguments",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/atan2.html"
+    },
+    {
+      "name": "atanh",
+      "args": "<real_expr>",
+      "desc": "Computes the inverse (arc) hyperbolic tangent of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/atanh.html"
+    },
+    {
+      "name": "auto_refresh_registration_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, OBJECT_TYPE => '<string>' [, OBJECT_NAME => '<string>'] ]",
+      "desc": "This table function can be used to query the history of data files registered in the metadata of specified objects and the credits billed for these operations",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/auto_refresh_registration_history.html"
+    },
+    {
+      "name": "avg",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the average of non-NULL records",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/avg.html"
+    },
+    {
+      "name": "base64_decode_binary",
+      "args": "<input> [, <alphabet> ]",
+      "desc": "Decodes a Base64-encoded string to a binary",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/base64_decode_binary.html"
+    },
+    {
+      "name": "base64_decode_string",
+      "args": "<input> [, <alphabet> ]",
+      "desc": "Decodes a Base64-encoded string to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/base64_decode_string.html"
+    },
+    {
+      "name": "base64_encode",
+      "args": "<input> [, <max_line_length> ] [, <alphabet> ]",
+      "desc": "Encodes the input (string or binary) using Base64 encoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/base64_encode.html"
+    },
+    {
+      "name": "bit_length",
+      "args": "<string_or_binary>",
+      "desc": "Returns the length of a string or binary value in bits",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bit_length.html"
+    },
+    {
+      "name": "bitand",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns the bitwise AND of two numeric expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitand.html"
+    },
+    {
+      "name": "bitand_agg",
+      "args": "<expr1>",
+      "desc": "Returns the bitwise AND value of all non-NULL numeric records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitand_agg.html"
+    },
+    {
+      "name": "bitmap_bit_position",
+      "args": "<numeric_expr>",
+      "desc": "Given a numeric value, returns the relative position for the bit that represents that value in a bitmap",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_bit_position.html"
+    },
+    {
+      "name": "bitmap_bucket_number",
+      "args": "<numeric_expr>",
+      "desc": "Given a numeric value, returns an identifier (“bucket number”) for the bitmap containing the bit that represents the value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_bucket_number.html"
+    },
+    {
+      "name": "bitmap_construct_agg",
+      "args": "<relative_position>",
+      "desc": "Returns a bitmap with bits set for each distinct value in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_construct_agg.html"
+    },
+    {
+      "name": "bitmap_count",
+      "args": "<bitmap>",
+      "desc": "Given a bitmap that represents the set of distinct values for a column, returns the number of distinct value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_count.html"
+    },
+    {
+      "name": "bitmap_or_agg",
+      "args": "<bitmap>",
+      "desc": "Returns a bitmap containing the results of a binary OR operation on the input bitmaps",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_or_agg.html"
+    },
+    {
+      "name": "bitnot",
+      "args": "<expr>",
+      "desc": "Returns the bitwise negation of a numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitnot.html"
+    },
+    {
+      "name": "bitor",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns the bitwise OR of two numeric expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitor.html"
+    },
+    {
+      "name": "bitor_agg",
+      "args": "<expr1>",
+      "desc": "Returns the bitwise OR value of all non-NULL numeric records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitor_agg.html"
+    },
+    {
+      "name": "bitshiftleft",
+      "args": "<expr1>, <n>",
+      "desc": "Shifts the bits for a numeric expression n positions to the left",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitshiftleft.html"
+    },
+    {
+      "name": "bitshiftright",
+      "args": "<expr1>, <n>",
+      "desc": "Shifts the bits for a numeric expression n positions to the right",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitshiftright.html"
+    },
+    {
+      "name": "bitxor",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns the bitwise XOR of two numeric expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitxor.html"
+    },
+    {
+      "name": "bitxor_agg",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the bitwise XOR value of all non-NULL numeric records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/bitxor_agg.html"
+    },
+    {
+      "name": "booland",
+      "args": "expr1, expr2",
+      "desc": "Computes the Boolean AND of two numeric expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/booland.html"
+    },
+    {
+      "name": "booland_agg",
+      "args": "<expr>",
+      "desc": "Returns the logical (boolean) AND value of all non-NULL boolean records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/booland_agg.html"
+    },
+    {
+      "name": "boolnot",
+      "args": "expr",
+      "desc": "Computes the Boolean NOT of a single numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/boolnot.html"
+    },
+    {
+      "name": "boolor",
+      "args": "expr1, expr2",
+      "desc": "Computes the Boolean OR of two numeric expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/boolor.html"
+    },
+    {
+      "name": "boolor_agg",
+      "args": "<expr>",
+      "desc": "Returns the logical (boolean) OR value of all non-NULL boolean records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/boolor_agg.html"
+    },
+    {
+      "name": "boolxor",
+      "args": "expr1, expr2",
+      "desc": "Computes the Boolean XOR of two numeric expressions ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/boolxor.html"
+    },
+    {
+      "name": "boolxor_agg",
+      "args": "<expr>",
+      "desc": "Returns the logical (boolean) XOR value of all non-NULL boolean records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/boolxor_agg.html"
+    },
+    {
+      "name": "build_scoped_file_url",
+      "args": "@<stage_name>, '<relative_file_path>'",
+      "desc": "Generates a scoped Snowflake-hosted URL to a staged file using the stage name and relative file path as inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/build_scoped_file_url.html"
+    },
+    {
+      "name": "build_stage_file_url",
+      "args": "@<stage_name>, '<relative_file_path>'",
+      "desc": "Generates a Snowflake-hosted file URL to a staged file using the stage name and relative file path as inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/build_stage_file_url.html"
+    },
+    {
+      "name": "cbrt",
+      "args": "expr",
+      "desc": "Returns the cubic root of a numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/cbrt.html"
+    },
+    {
+      "name": "ceil",
+      "args": "<input_expr> [, <scale_expr> ]",
+      "desc": "Returns values from input_expr rounded to the nearest equal or larger integer, or to the nearest equal or larger value with the specified number of places after the decimal point",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ceil.html"
+    },
+    {
+      "name": "charindex",
+      "args": "<expr1>, <expr2> [, <start_pos> ]",
+      "desc": "Searches for the first occurrence of the first argument in the second argument and, if successful, returns the position (1-based) of the first argument in the second argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/charindex.html"
+    },
+    {
+      "name": "check_json",
+      "args": "<string_or_variant_expr>",
+      "desc": "Checks the validity of a JSON document",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/check_json.html"
+    },
+    {
+      "name": "check_xml",
+      "args": "<string_containing_xml> [, <disable_auto_convert> ]",
+      "desc": "(Preview Feature — Open) Checks the validity of an XML document",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/check_xml.html"
+    },
+    {
+      "name": "chr",
+      "args": "<input>",
+      "desc": "Converts a Unicode code point (including 7-bit ASCII) into the character that matches the input Unicode",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/chr.html"
+    },
+    {
+      "name": "coalesce",
+      "args": "<expr1>, <expr2> [, ..., <exprN> ]",
+      "desc": "Returns the first non-NULL expression among its arguments, or NULL if all its arguments are NULL",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/coalesce.html"
+    },
+    {
+      "name": "collate",
+      "args": "<string_expression>, '<collation_specification>'",
+      "desc": "Returns a copy of the original string, but with the specified collation_specification property instead of the original collation_specification property",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/collate.html"
+    },
+    {
+      "name": "collation",
+      "args": "<expression>",
+      "desc": "Returns the collation specification of the expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/collation.html"
+    },
+    {
+      "name": "complete_task_graphs",
+      "args": "[ RESULT_LIMIT => <integer> ] [, ROOT_TASK_NAME => '<string>' ] [, ERROR_ONLY => { TRUE | FALSE } ]",
+      "desc": "(Preview Feature — Open) Returns the status of a completed graph run",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/complete_task_graphs.html"
+    },
+    {
+      "name": "compress",
+      "args": "<input>, <method>",
+      "desc": "Compresses the input string or binary value with a compression method",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/compress.html"
+    },
+    {
+      "name": "concat",
+      "args": "<expr1> [, <exprN> ... ]",
+      "desc": "Concatenates one or more strings, or concatenates one or more binary values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/concat.html"
+    },
+    {
+      "name": "concat_ws",
+      "args": "<separator>, <expression1> [, <expressionN> ... ]",
+      "desc": "Concatenates two or more strings, or concatenates two or more binary values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/concat_ws.html"
+    },
+    {
+      "name": "conditional_change_event",
+      "args": "<expr1>",
+      "desc": "Returns a window event number for each row within a window partition when the value of the argument expr1 in the current row is different from the value of expr1 in the previous row",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/conditional_change_event.html"
+    },
+    {
+      "name": "conditional_true_event",
+      "args": "<expr1>",
+      "desc": "Returns a window event number for each row within a window partition based on the result of the boolean argument expr1",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/conditional_true_event.html"
+    },
+    {
+      "name": "contains",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns true if expr1 contains expr2",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/contains.html"
+    },
+    {
+      "name": "convert_timezone",
+      "args": "<source_tz>, <target_tz>, <source_timestamp_ntz>",
+      "desc": "Converts a timestamp to another time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/convert_timezone.html"
+    },
+    {
+      "name": "corr",
+      "args": "y, x",
+      "desc": "Returns the correlation coefficient for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/corr.html"
+    },
+    {
+      "name": "cos",
+      "args": "<real_expr>",
+      "desc": "Computes the cosine of its argument; the argument should be expressed in radians",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/cos.html"
+    },
+    {
+      "name": "cosh",
+      "args": "<real_expr>",
+      "desc": "Computes the hyperbolic cosine of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/cosh.html"
+    },
+    {
+      "name": "cot",
+      "args": "<real_expr>",
+      "desc": "Computes the cotangent of its argument; the argument should be expressed in radians",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/cot.html"
+    },
+    {
+      "name": "count",
+      "args": "[ DISTINCT ] <expr1> [, <expr2> ... ]",
+      "desc": "Returns either the number of non-NULL records for the specified columns, or the total number of records",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/count.html"
+    },
+    {
+      "name": "count_if",
+      "args": "<condition>",
+      "desc": "Returns the number of records that satisfy a condition",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/count_if.html"
+    },
+    {
+      "name": "covar_pop",
+      "args": "y, x",
+      "desc": "Returns the population covariance for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/covar_pop.html"
+    },
+    {
+      "name": "covar_samp",
+      "args": "y, x",
+      "desc": "Returns the sample covariance for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/covar_samp.html"
+    },
+    {
+      "name": "cume_dist",
+      "args": "",
+      "desc": "Finds the cumulative distribution of a value with regard to other values within the same window partition",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/cume_dist.html"
+    },
+    {
+      "name": "current_account",
+      "args": "",
+      "desc": "Returns the account locator used by the user’s current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_account.html"
+    },
+    {
+      "name": "current_available_roles",
+      "args": "",
+      "desc": "Returns a string (VARCHAR) that lists all account-level roles granted to the current user",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_available_roles.html"
+    },
+    {
+      "name": "current_client",
+      "args": "",
+      "desc": "Returns the version of the client from which the function was called",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_client.html"
+    },
+    {
+      "name": "current_database",
+      "args": "",
+      "desc": "Returns the name of the database in use for the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_database.html"
+    },
+    {
+      "name": "current_date",
+      "args": "",
+      "desc": "Returns the current date of the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_date.html"
+    },
+    {
+      "name": "current_ip_address",
+      "args": "",
+      "desc": "Returns the IP address of the client that submitted the request",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_ip_address.html"
+    },
+    {
+      "name": "current_region",
+      "args": "",
+      "desc": "Returns the name of the region for the account where the current user is logged in",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_region.html"
+    },
+    {
+      "name": "current_role",
+      "args": "",
+      "desc": "Returns the name of the primary role in use for the current session when the primary role is an account-level role or NULL if the role in use for the current session is a database role",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_role.html"
+    },
+    {
+      "name": "current_role_type",
+      "args": "",
+      "desc": "(Preview Feature — Open) Returns either ROLE or DATABASE_ROLE based on whether the current active role in the session is an account role or a database role, respectively",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_role_type.html"
+    },
+    {
+      "name": "current_schema",
+      "args": "",
+      "desc": "Returns the name of the schema in use by the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_schema.html"
+    },
+    {
+      "name": "current_schemas",
+      "args": "",
+      "desc": "Returns active search path schemas",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_schemas.html"
+    },
+    {
+      "name": "current_secondary_roles",
+      "args": "",
+      "desc": "Returns the name of the secondary roles in use for the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_secondary_roles.html"
+    },
+    {
+      "name": "current_session",
+      "args": "",
+      "desc": "Returns a unique system identifier for the Snowflake session corresponding to the present connection",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_session.html"
+    },
+    {
+      "name": "current_statement",
+      "args": "",
+      "desc": "Returns the SQL text of the statement that is currently executing",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_statement.html"
+    },
+    {
+      "name": "current_task_graphs",
+      "args": "[ RESULT_LIMIT => <integer> ] [, ROOT_TASK_NAME => '<string>' ]",
+      "desc": "(Preview Feature — Open) Returns the status of a graph run that is currently scheduled or is executing",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_task_graphs.html"
+    },
+    {
+      "name": "current_time",
+      "args": "[ <fract_sec_precision> ]",
+      "desc": "Returns the current time for the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_time.html"
+    },
+    {
+      "name": "current_timestamp",
+      "args": "[ <fract_sec_precision> ]",
+      "desc": "Returns the current timestamp for the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_timestamp.html"
+    },
+    {
+      "name": "current_transaction",
+      "args": "",
+      "desc": "Returns the transaction id of an open transaction in the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_transaction.html"
+    },
+    {
+      "name": "current_user",
+      "args": "",
+      "desc": "Returns the name of the user currently logged into the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_user.html"
+    },
+    {
+      "name": "current_version",
+      "args": "",
+      "desc": "Returns the current Snowflake version",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_version.html"
+    },
+    {
+      "name": "current_warehouse",
+      "args": "",
+      "desc": "Returns the name of the warehouse in use for the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/current_warehouse.html"
+    },
+    {
+      "name": "database_refresh_history",
+      "args": "'<secondary_db_name>'",
+      "desc": "Returns the refresh history for a secondary database",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/database_refresh_history.html"
+    },
+    {
+      "name": "database_refresh_progress",
+      "args": "'<secondary_db_name>'",
+      "desc": "The DATABASE_REFRESH_PROGRESS family of functions can be used to query the status of a database refresh along various dimensions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/database_refresh_progress.html"
+    },
+    {
+      "name": "database_replication_usage_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, DATABASE_NAME => '<string>' ]",
+      "desc": "This table function can be used to query the replication history for a specified database within a specified date range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/database_replication_usage_history.html"
+    },
+    {
+      "name": "date_from_parts",
+      "args": "<year>, <month>, <day>",
+      "desc": "Creates a date from individual numeric components that represent the year, month, and day of the month",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/date_from_parts.html"
+    },
+    {
+      "name": "date_part",
+      "args": "<date_or_time_part>, <date_or_time_expr>",
+      "desc": "Extracts the specified date or time part from a date, time, or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/date_part.html"
+    },
+    {
+      "name": "date_trunc",
+      "args": "<date_or_time_part>, <date_or_time_expr>",
+      "desc": "Truncates a DATE, TIME, or TIMESTAMP to the specified precision",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/date_trunc.html"
+    },
+    {
+      "name": "dateadd",
+      "args": "<date_or_time_part>, <value>, <date_or_time_expr>",
+      "desc": "Adds the specified value for the specified date or time part to a date, time, or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/dateadd.html"
+    },
+    {
+      "name": "datediff",
+      "args": "<date_or_time_part>, <date_or_time_expr1>, <date_or_time_expr2>",
+      "desc": "Calculates the difference between two date, time, or timestamp expressions based on the date or time part requested",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/datediff.html"
+    },
+    {
+      "name": "dayname",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the three-letter day-of-week name from the specified date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/dayname.html"
+    },
+    {
+      "name": "decode",
+      "args": "<expr>, <search1>, <result1> [, <search2>, <result2> ... ] [, <default> ]",
+      "desc": "Compares the select expression to each search expression in order",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/decode.html"
+    },
+    {
+      "name": "decompress_binary",
+      "args": "<input>, <method>",
+      "desc": "Decompresses the compressed BINARY input parameter",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/decompress_binary.html"
+    },
+    {
+      "name": "decompress_string",
+      "args": "<input>, <method>",
+      "desc": "Decompresses the compressed BINARY input parameter to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/decompress_string.html"
+    },
+    {
+      "name": "decrypt",
+      "args": "<value_to_decrypt>, <passphrase> , [ [ <additional_authenticated_data>, ] <encryption_method> ]",
+      "desc": "Decrypts a BINARY value using a VARCHAR passphrase",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/decrypt.html"
+    },
+    {
+      "name": "decrypt_raw",
+      "args": "<value_to_decrypt>, <key>, <iv> , [ [ [ <additional_authenticated_data>, ] <encryption_method>, ] <aead_tag> ]",
+      "desc": "Decrypts a BINARY value using a BINARY key",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/decrypt_raw.html"
+    },
+    {
+      "name": "degrees",
+      "args": "<real_expr>",
+      "desc": "Converts radians to degrees",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/degrees.html"
+    },
+    {
+      "name": "dense_rank",
+      "args": "",
+      "desc": "Returns the rank of a value within a group of values, without gaps in the ranks",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/dense_rank.html"
+    },
+    {
+      "name": "div0",
+      "args": "<dividend>, <divisor>",
+      "desc": "Performs division like the division operator (/), but returns 0 when the divisor is 0 (rather than reporting an error)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/div0.html"
+    },
+    {
+      "name": "div0null",
+      "args": "<dividend>, <divisor>",
+      "desc": "Performs division like the division operator (/), but returns 0 when the divisor is 0 or NULL (rather than reporting an error or returning NULL)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/div0null.html"
+    },
+    {
+      "name": "editdistance",
+      "args": "<string_expr1>, <string_expr2> [, <max_distance> ]",
+      "desc": "Computes the Levenshtein distance between two input strings",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/editdistance.html"
+    },
+    {
+      "name": "encrypt",
+      "args": "<value_to_encrypt>, <passphrase> , [ [ <additional_authenticated_data>, ] <encryption_method> ]",
+      "desc": "Encrypts a VARCHAR or BINARY value using a VARCHAR passphrase",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/encrypt.html"
+    },
+    {
+      "name": "encrypt_raw",
+      "args": "<value_to_encrypt>, <key>, <iv> , [ [ <additional_authenticated_data>, ] <encryption_method> ]",
+      "desc": "Encrypts a BINARY value using a BINARY key",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/encrypt_raw.html"
+    },
+    {
+      "name": "endswith",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns TRUE if the first expression ends with second expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/endswith.html"
+    },
+    {
+      "name": "equal_null",
+      "args": "<expr1>, <expr2>",
+      "desc": "Compares whether two expressions are equal",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/equal_null.html"
+    },
+    {
+      "name": "exp",
+      "args": "<real_expr>",
+      "desc": "Computes Euler’s number e raised to a floating-point value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/exp.html"
+    },
+    {
+      "name": "explain_json",
+      "args": "<explain_output_in_json_format>",
+      "desc": "This function converts an EXPLAIN plan from JSON to a table",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/explain_json.html"
+    },
+    {
+      "name": "external_functions_history",
+      "args": "[ DATE_RANGE_START => <constant_date_expression> ] [, DATE_RANGE_END => <constant_date_expression> ] [, FUNCTION_SIGNATURE => '<string>' ]",
+      "desc": "This table function retrieves the history of external functions called by Snowflake for your entire Snowflake account",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/external_functions_history.html"
+    },
+    {
+      "name": "external_table_files",
+      "args": "TABLE_NAME => '<string>'",
+      "desc": "This table function can be used to query information about the staged data files included in the metadata for a specified external table",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/external_table_files.html"
+    },
+    {
+      "name": "external_table_file_registration_history",
+      "args": "TABLE_NAME => '<string>' [, START_TIME => <constant_expr> ]",
+      "desc": "This table function can be used to query information about the metadata history for an external table, including",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/external_table_registration_history.html"
+    },
+    {
+      "name": "extract",
+      "args": "<date_or_time_part> FROM <date_or_time_expr>",
+      "desc": "Extracts the specified date or time part from a date, time, or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/extract.html"
+    },
+    {
+      "name": "extract_semantic_categories",
+      "args": "'<object_name>' [, <max_rows_to_scan> ]",
+      "desc": "Returns a set of categories (semantic and privacy) for each supported column in the specified table or view",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/extract_semantic_categories.html"
+    },
+    {
+      "name": "factorial",
+      "args": "<integer_expr>",
+      "desc": "Computes the factorial of its input",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/factorial.html"
+    },
+    {
+      "name": "first_value",
+      "args": "<expr>",
+      "desc": "Returns the first value within an ordered group of values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/first_value.html"
+    },
+    {
+      "name": "flatten",
+      "args": "<expr>",
+      "desc": "Flattens (explodes) compound values into multiple rows",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/flatten.html"
+    },
+    {
+      "name": "floor",
+      "args": "<input_expr> [, <scale_expr> ]",
+      "desc": "Returns values from input_expr rounded to the nearest equal or smaller integer, or to the nearest equal or smaller value with the specified number of places after the decimal point",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/floor.html"
+    },
+    {
+      "name": "generate_column_description",
+      "args": "<expr>, '<string>'",
+      "desc": "Generates a list of columns from a set of staged files that contain semi-structured data using the INFER_SCHEMA function output",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/generate_column_description.html"
+    },
+    {
+      "name": "infer_schema",
+      "args": "LOCATION => '{ internalStage | externalStage }' , FILE_FORMAT => '<file_format_name>' , FILES => '<file_name>' [, '<file_name>' ] [, ... ] , IGNORE_CASE => TRUE | FALSE",
+      "desc": "Automatically detects the file metadata schema in a set of staged data files that contain semi-structured data and retrieves the column definitions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/infer_schema.html"
+    },
+    {
+      "name": "generator",
+      "args": "ROWCOUNT => <count> [, TIMELIMIT => <sec> ]",
+      "desc": "Creates rows of data based either on a specified number of rows, a specified generation period (in seconds), or both",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/generator.html"
+    },
+    {
+      "name": "get",
+      "args": "<array>, <index>",
+      "desc": "Extracts a value from an ARRAY or an OBJECT (or a VARIANT that contains an ARRAY or OBJECT)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get.html"
+    },
+    {
+      "name": "get_absolute_path",
+      "args": "@<stage_name>, '<relative_file_path>'",
+      "desc": "Retrieves the absolute path of a staged file using the stage name and path of the file relative to its location in the stage as inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_absolute_path.html"
+    },
+    {
+      "name": "get_ddl",
+      "args": "'<object_type>', '[<namespace>.]<object_name>' [, <use_fully_qualified_names_for_recreated_objects> ]",
+      "desc": "Returns a DDL statement that can be used to recreate the specified object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_ddl.html"
+    },
+    {
+      "name": "get_ignore_case",
+      "args": "<object>, <field_name>",
+      "desc": "Extracts a field value from an object; returns NULL if either of the arguments is NULL",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_ignore_case.html"
+    },
+    {
+      "name": "get_presigned_url",
+      "args": "@<stage_name>, '<relative_file_path>', [ <expiration_time> ]",
+      "desc": "Generates the pre-signed URL to a staged file using the stage name and relative file path as inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_presigned_url.html"
+    },
+    {
+      "name": "get_query_operator_stats",
+      "args": "<query_id>",
+      "desc": "(Preview Feature — Open) Returns statistics about individual query operators within a query",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_query_operator_stats.html"
+    },
+    {
+      "name": "get_relative_path",
+      "args": "@<stage_name>, '<absolute_file_path>'",
+      "desc": "Extracts the path of a staged file relative to its location in the stage using the stage name and absolute file path in cloud storage as inputs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_relative_path.html"
+    },
+    {
+      "name": "get_stage_location",
+      "args": "@<stage_name>",
+      "desc": "Retrieves the URL for an external or internal named stage using the stage name as the input",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/get_stage_location.html"
+    },
+    {
+      "name": "getbit",
+      "args": "<integer_expr>, <bit_position>",
+      "desc": "Given an INTEGER value, returns the value of a bit at a specified position",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/getbit.html"
+    },
+    {
+      "name": "greatest",
+      "args": "<expr1> [, <expr2> ... ]",
+      "desc": "Returns the largest value from a list of expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/greatest.html"
+    },
+    {
+      "name": "grouping",
+      "args": "<expr1> [, <expr2>, ... ]",
+      "desc": "Describes which of a list of expressions are grouped in a row produced by a GROUP BY query",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/grouping.html"
+    },
+    {
+      "name": "grouping_id",
+      "args": "<expr1> [, <expr2>, ... ]",
+      "desc": "Describes which of a list of expressions are grouped in a row produced by a GROUP BY query",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/grouping_id.html"
+    },
+    {
+      "name": "hash",
+      "args": "<expr> [, <expr2> ... ]",
+      "desc": "Returns a signed 64-bit hash value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hash.html"
+    },
+    {
+      "name": "hash_agg",
+      "args": "[ DISTINCT ] <expr> [, <expr2> ... ]",
+      "desc": "Returns an aggregate signed 64-bit hash value over the (unordered) set of input rows",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hash_agg.html"
+    },
+    {
+      "name": "haversine",
+      "args": "lat1, lon1, lat2, lon2",
+      "desc": "Calculates the great circle distance in kilometers between two points on the Earth’s surface, using the Haversine formula",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/haversine.html"
+    },
+    {
+      "name": "hex_decode_binary",
+      "args": "<input>",
+      "desc": "Decodes a hex-encoded string to a binary",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hex_decode_binary.html"
+    },
+    {
+      "name": "hex_decode_string",
+      "args": "<input>",
+      "desc": "Decodes a hex-encoded string to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hex_decode_string.html"
+    },
+    {
+      "name": "hex_encode",
+      "args": "<input> [, <case>]",
+      "desc": "Encodes the input using hexadecimal (also ‘hex’ or ‘base16’) encoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hex_encode.html"
+    },
+    {
+      "name": "hll",
+      "args": "[ DISTINCT ] <expr1> [, ... ]",
+      "desc": "Uses HyperLogLog to return an approximation of the distinct cardinality of the input ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll.html"
+    },
+    {
+      "name": "hll_accumulate",
+      "args": "[ DISTINCT ] <expr>",
+      "desc": "Returns the HyperLogLog state at the end of aggregation",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_accumulate.html"
+    },
+    {
+      "name": "hll_combine",
+      "args": "[DISTINCT] state",
+      "desc": "Combines (merges) input states into a single output state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_combine.html"
+    },
+    {
+      "name": "hll_estimate",
+      "args": "<state>",
+      "desc": "Returns the cardinality estimate for the given HyperLogLog state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_estimate.html"
+    },
+    {
+      "name": "hll_export",
+      "args": "<binary_expr>",
+      "desc": "Converts input in BINARY format to OBJECT format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_export.html"
+    },
+    {
+      "name": "hll_import",
+      "args": "obj",
+      "desc": "Converts input in OBJECT format to BINARY format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_import.html"
+    },
+    {
+      "name": "hour",
+      "args": "<time_or_timestamp_expr>",
+      "desc": "Extracts the hour from a time or timestamp value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hour-minute-second.html"
+    },
+    {
+      "name": "minute",
+      "args": "<time_or_timestamp_expr>",
+      "desc": "Extracts the minute from a time or timestamp value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hour-minute-second.html"
+    },
+    {
+      "name": "second",
+      "args": "<time_or_timestamp_expr>",
+      "desc": "Extracts the second from a time or timestamp value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/hour-minute-second.html"
+    },
+    {
+      "name": "iff",
+      "args": "<condition>, <expr1>, <expr2>",
+      "desc": "Single-level if-then-else expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/iff.html"
+    },
+    {
+      "name": "ifnull",
+      "args": "<expr1>, <expr2>",
+      "desc": "If expr1 is NULL, returns expr2, otherwise returns expr1",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ifnull.html"
+    },
+    {
+      "name": "initcap",
+      "args": "<expr> [, <delimiters> ]",
+      "desc": "Returns the input string (expr) with the first letter of each word in uppercase and the subsequent letters in lowercase",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/initcap.html"
+    },
+    {
+      "name": "insert",
+      "args": "<base_expr>, <pos>, <len>, <insert_expr>",
+      "desc": "Replaces a substring of the specified length, starting at the specified position, with a new string or binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/insert.html"
+    },
+    {
+      "name": "invoker_role",
+      "args": "",
+      "desc": "Returns the name of the account-level role of the object executing the query or NULL if the name of the role is a database role",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/invoker_role.html"
+    },
+    {
+      "name": "invoker_share",
+      "args": "",
+      "desc": "Returns the name of the share that directly accessed the table or view where the INVOKER_SHARE function is invoked, otherwise the function returns NULL",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/invoker_share.html"
+    },
+    {
+      "name": "is_array",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains an ARRAY value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_array.html"
+    },
+    {
+      "name": "is_binary",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains a binary string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_binary.html"
+    },
+    {
+      "name": "is_boolean",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains a Boolean value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_boolean.html"
+    },
+    {
+      "name": "is_char",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains a string value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_char-varchar.html"
+    },
+    {
+      "name": "is_date",
+      "args": "<variant_expr>",
+      "desc": "Verifies whether a VARIANT value contains a DATE value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_date-value.html"
+    },
+    {
+      "name": "is_decimal",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains a fixed-point decimal value or integer",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_decimal.html"
+    },
+    {
+      "name": "is_double",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains a floating-point value, fixed-point decimal, or integer",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_double-real.html"
+    },
+    {
+      "name": "is_granted_to_invoker_role",
+      "args": "'<string_literal>'",
+      "desc": "Returns TRUE if the role returned by the INVOKER_ROLE function inherits the privileges of the specified role in the argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_granted_to_invoker_role.html"
+    },
+    {
+      "name": "is_integer",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains an integer value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_integer.html"
+    },
+    {
+      "name": "is_null_value",
+      "args": "<variant_expr>",
+      "desc": "Returns true if its VARIANT argument is a JSON null value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_null_value.html"
+    },
+    {
+      "name": "is_object",
+      "args": "<variant_expr>",
+      "desc": "Returns TRUE if its VARIANT argument contains an OBJECT value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_object.html"
+    },
+    {
+      "name": "is_role_in_session",
+      "args": "'<string_literal>'",
+      "desc": "Verifies whether the argument value ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_role_in_session.html"
+    },
+    {
+      "name": "is_time",
+      "args": "<variant_expr>",
+      "desc": "Verifies whether a VARIANT value contains a TIME value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_time.html"
+    },
+    {
+      "name": "is_timestamp_ltz",
+      "args": "<variant_expr>",
+      "desc": "Verifies whether a VARIANT value contains a TIMESTAMP value with local time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_timestamp.html"
+    },
+    {
+      "name": "is_timestamp_ntz",
+      "args": "<variant_expr>",
+      "desc": "Verifies whether a VARIANT value contains a TIMESTAMP value with no time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_timestamp.html"
+    },
+    {
+      "name": "is_timestamp_tz",
+      "args": "<variant_expr>",
+      "desc": "Verifies whether a VARIANT value contains a TIMESTAMP value with time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/is_timestamp.html"
+    },
+    {
+      "name": "jarowinkler_similarity",
+      "args": "<string_expr1>, <string_expr2>",
+      "desc": "Computes the Jaro-Winkler similarity between two input strings",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/jarowinkler_similarity.html"
+    },
+    {
+      "name": "json_extract_path_text",
+      "args": "<column_identifier>, '<path_name>'",
+      "desc": "Parses the first argument as a JSON string and returns the value of the element pointed to by the path in the second argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/json_extract_path_text.html"
+    },
+    {
+      "name": "kurtosis",
+      "args": "<expr>",
+      "desc": "Returns the population excess kurtosis of non-NULL records",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/kurtosis.html"
+    },
+    {
+      "name": "lag",
+      "args": "<expr> [, <offset>, <default> ]",
+      "desc": "Accesses data in a previous row in the same result set without having to join the table to itself",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/lag.html"
+    },
+    {
+      "name": "last_day",
+      "args": "<date_or_time_expr> [, <date_part> ]",
+      "desc": "Returns the last day of the specified date part for a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/last_day.html"
+    },
+    {
+      "name": "last_query_id",
+      "args": "[ <num> ]",
+      "desc": "Returns the ID of a specified query in the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/last_query_id.html"
+    },
+    {
+      "name": "last_transaction",
+      "args": "",
+      "desc": "Returns the transaction ID of the last transaction that was either committed or rolled back in the current session",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/last_transaction.html"
+    },
+    {
+      "name": "last_value",
+      "args": "<expr>",
+      "desc": "Returns the last value within an ordered group of values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/last_value.html"
+    },
+    {
+      "name": "lead",
+      "args": "<expr> [, <offset>, <default> ]",
+      "desc": "Accesses data in a subsequent row in the same result set without having to join the table to itself",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/lead.html"
+    },
+    {
+      "name": "least",
+      "args": "<expr>, ...",
+      "desc": "Returns the smallest value from a list of expressions",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/least.html"
+    },
+    {
+      "name": "left",
+      "args": "<string_expr>, <length_expr>",
+      "desc": "Returns a leftmost substring of its input",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/left.html"
+    },
+    {
+      "name": "length",
+      "args": "<expression>",
+      "desc": "Returns the length of an input string or binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/length.html"
+    },
+    {
+      "name": "listagg",
+      "args": "[ DISTINCT ] <expr1> [, <delimiter> ]",
+      "desc": "Returns the concatenated input values, separated by the delimiter string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/listagg.html"
+    },
+    {
+      "name": "ln",
+      "args": "<expr>",
+      "desc": "Returns the natural logarithm of a numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ln.html"
+    },
+    {
+      "name": "localtime",
+      "args": "",
+      "desc": "Returns the current time for the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/localtime.html"
+    },
+    {
+      "name": "localtimestamp",
+      "args": "",
+      "desc": "Returns the current timestamp for the system",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/localtimestamp.html"
+    },
+    {
+      "name": "log",
+      "args": "<base>, <expr>",
+      "desc": "Returns the logarithm of a numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/log.html"
+    },
+    {
+      "name": "lower",
+      "args": "<expr>",
+      "desc": "Returns the input string (expr) with all characters converted to lowercase",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/lower.html"
+    },
+    {
+      "name": "lpad",
+      "args": "<base>, <length_expr> [, <pad>]",
+      "desc": "Left-pads a string with characters from another string, or left-pads a binary value with bytes from another binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/lpad.html"
+    },
+    {
+      "name": "ltrim",
+      "args": "<expr> [, <characters> ]",
+      "desc": "Removes leading characters, including whitespace, from a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ltrim.html"
+    },
+    {
+      "name": "md5",
+      "args": "<msg>",
+      "desc": "Returns a 32-character hex-encoded string containing the 128-bit MD5 message digest",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/md5.html"
+    },
+    {
+      "name": "md5_binary",
+      "args": "<msg>",
+      "desc": "Returns a 16-byte BINARY value containing the 128-bit MD5 message digest",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/md5_binary.html"
+    },
+    {
+      "name": "median",
+      "args": "<expr>",
+      "desc": "Determines the median of a set of values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/median.html"
+    },
+    {
+      "name": "min",
+      "args": "<expr>",
+      "desc": "Returns the minimum value for the records within expr",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/min.html"
+    },
+    {
+      "name": "max",
+      "args": "<expr>",
+      "desc": "Returns the maximum value for the records within expr",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/min.html"
+    },
+    {
+      "name": "minhash",
+      "args": "<k>, [ DISTINCT ] expr+",
+      "desc": "Returns a MinHash state containing an array of size k constructed by applying k number of different hash functions to the input rows and keeping the minimum of each hash function",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/minhash.html"
+    },
+    {
+      "name": "minhash_combine",
+      "args": "[ DISTINCT ] <state>",
+      "desc": "Combines input MinHash states into a single MinHash output state",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/minhash_combine.html"
+    },
+    {
+      "name": "mod",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns the remainder of input expr1 divided by input expr2",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/mod.html"
+    },
+    {
+      "name": "mode",
+      "args": "<expr1>",
+      "desc": "Returns the most frequent value for the values within expr1",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/mode.html"
+    },
+    {
+      "name": "monthname",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the three-letter month name from the specified date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/monthname.html"
+    },
+    {
+      "name": "months_between",
+      "args": "<date_expr1>, <date_expr2>",
+      "desc": "Returns the number of months between two DATE or TIMESTAMP values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/months_between.html"
+    },
+    {
+      "name": "next_day",
+      "args": "<date_or_time_expr>, <dow_string>",
+      "desc": "Returns the date of the first specified DOW (day of week) that occurs after the input date",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/next_day.html"
+    },
+    {
+      "name": "normal",
+      "args": "<mean>, <stddev>, <gen>",
+      "desc": "Returns a normal-distributed floating point number, with specified mean and stddev (standard deviation)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/normal.html"
+    },
+    {
+      "name": "notification_history",
+      "args": "[ START_TIME => <constant_expr> ] [, END_TIME => <constant_expr> ] [, INTEGRATION_NAME => '<string>' ] [, RESULT_LIMIT => <integer> ]",
+      "desc": "This table function can be used to query the history of notifications sent through Snowflake",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/notification_history.html"
+    },
+    {
+      "name": "nth_value",
+      "args": "<expr>, <n>",
+      "desc": "Returns the nth value (up to 1000) within an ordered group of values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/nth_value.html"
+    },
+    {
+      "name": "ntile",
+      "args": "<constant_value>",
+      "desc": "Divides an ordered data set equally into the number of buckets specified by constant_value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ntile.html"
+    },
+    {
+      "name": "nullif",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns NULL if expr1 is equal to expr2, otherwise returns expr1",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/nullif.html"
+    },
+    {
+      "name": "nullifzero",
+      "args": "<expr>",
+      "desc": "Returns NULL if the argument evaluates to 0; otherwise, returns the argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/nullifzero.html"
+    },
+    {
+      "name": "nvl",
+      "args": "<expr1>, <expr2>",
+      "desc": "If expr1 is NULL, returns expr2, otherwise returns expr1",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/nvl.html"
+    },
+    {
+      "name": "nvl2",
+      "args": "<expr1>, <expr2>, <expr3>",
+      "desc": "Returns values depending on whether the first input is NULL",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/nvl2.html"
+    },
+    {
+      "name": "object_agg",
+      "args": "<key>, <value>",
+      "desc": "Returns one OBJECT per group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_agg.html"
+    },
+    {
+      "name": "object_construct",
+      "args": "[<key1>, <value1> [, <keyN>, <valueN> ...]]",
+      "desc": "Returns an OBJECT constructed from the arguments",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_construct.html"
+    },
+    {
+      "name": "object_construct_keep_null",
+      "args": "[<key1>, <value1> [, <keyN>, <valueN> ...]]",
+      "desc": "Returns an OBJECT constructed from the arguments",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_construct_keep_null.html"
+    },
+    {
+      "name": "object_delete",
+      "args": "<object>, <key1> [, <key2>, ... ]",
+      "desc": "Returns an object containing the contents of the input ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_delete.html"
+    },
+    {
+      "name": "object_insert",
+      "args": "<object>, <key>, <value> [, <updateFlag> ]",
+      "desc": "Returns an object consisting of the input object with a new key-value pair inserted (or an existing key updated with a new value)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_insert.html"
+    },
+    {
+      "name": "object_keys",
+      "args": "<object>",
+      "desc": "Returns an array containing the list of keys in the top-most level of the input object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_keys.html"
+    },
+    {
+      "name": "object_pick",
+      "args": "<object>, <key1> [, <key2>, ... ]",
+      "desc": "Returns a new OBJECT containing some of the key-value pairs from an existing object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/object_pick.html"
+    },
+    {
+      "name": "octet_length",
+      "args": "<string_or_binary>",
+      "desc": "Returns the length of a string or binary value in bytes",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/octet_length.html"
+    },
+    {
+      "name": "parse_ip",
+      "args": "<expr>, '<type>' [, <permissive>]",
+      "desc": "Returns a JSON object consisting of all the components from a valid INET (Internet Protocol) or CIDR (Classless Internet Domain Routing) IPv4 or IPv6 string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/parse_ip.html"
+    },
+    {
+      "name": "parse_json",
+      "args": "<expr>",
+      "desc": "Interprets an input string as a JSON document, producing a VARIANT value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/parse_json.html"
+    },
+    {
+      "name": "parse_url",
+      "args": "<string>, [<permissive>]",
+      "desc": "Returns a JSON object consisting of all the components (fragment, host, path, port, query, scheme) in a valid input URL/URI",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/parse_url.html"
+    },
+    {
+      "name": "parse_xml",
+      "args": "<string_containing_xml> [, <disable_auto_convert> ]",
+      "desc": "Interprets an input string as an XML document, producing an OBJECT value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/parse_xml.html"
+    },
+    {
+      "name": "percent_rank",
+      "args": "",
+      "desc": "Returns the relative rank of a value within a group of values, specified as a percentage ranging from 0",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/percent_rank.html"
+    },
+    {
+      "name": "percentile_cont",
+      "args": "<percentile>",
+      "desc": "Return a percentile value based on a continuous distribution of the input column (specified in order_by_expr)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/percentile_cont.html"
+    },
+    {
+      "name": "percentile_disc",
+      "args": "<percentile>",
+      "desc": "Returns a percentile value based on a discrete distribution of the input column (specified in order_by_expr)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/percentile_disc.html"
+    },
+    {
+      "name": "pi",
+      "args": "",
+      "desc": "Returns the value of pi as a floating-point value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/pi.html"
+    },
+    {
+      "name": "policy_context",
+      "args": "<arg_1> => '<string_literal>' [, <arg_2> => '<string_literal>', ..., <arg_n> => '<string_literal>' ]",
+      "desc": "Simulates the query result for table or view columns protected by a masking policy, a table or view protected by a row access policy, or both if the table or view is protected by both types of policies",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/policy_context.html"
+    },
+    {
+      "name": "policy_references",
+      "args": "POLICY_NAME => '<string>'",
+      "desc": "Returns a row for each object that has the specified policy assigned to the object or returns a row for each policy assigned to the specified object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/policy_references.html"
+    },
+    {
+      "name": "position",
+      "args": "<expr1>, <expr2> [, <start_pos> ]",
+      "desc": "Searches for the first occurrence of the first argument in the second argument and, if successful, returns the position (1-based) of the first argument in the second argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/position.html"
+    },
+    {
+      "name": "pow",
+      "args": "x, y",
+      "desc": "Returns a number (x) raised to the specified power (y)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/pow.html"
+    },
+    {
+      "name": "previous_day",
+      "args": "<date_or_time_expr>, <dow>",
+      "desc": "Returns the date of the first specified DOW (day of week) that occurs before the input date",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/previous_day.html"
+    },
+    {
+      "name": "query_acceleration_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, WAREHOUSE_NAME => '<string>' ]",
+      "desc": "(Preview Feature — Open) The QUERY_ACCELERATION_HISTORY function is used for querying the query acceleration service history within a specified date range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/query_acceleration_history.html"
+    },
+    {
+      "name": "radians",
+      "args": "<real_expr>",
+      "desc": "Converts degrees to radians",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/radians.html"
+    },
+    {
+      "name": "random",
+      "args": "[seed]",
+      "desc": "Each call returns a pseudo-random 64-bit integer",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/random.html"
+    },
+    {
+      "name": "randstr",
+      "args": "<length>, <gen>",
+      "desc": "Returns a random string of specified length",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/randstr.html"
+    },
+    {
+      "name": "rank",
+      "args": "",
+      "desc": "Returns the rank of a value within an ordered group of values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rank.html"
+    },
+    {
+      "name": "ratio_to_report",
+      "args": "<expr1>",
+      "desc": "Returns the ratio of a value within a group to the sum of the values within the group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/ratio_to_report.html"
+    },
+    {
+      "name": "regexp_count",
+      "args": "<subject>, <pattern> [, <position>, <parameters> ]",
+      "desc": "Returns the number of times that a pattern occurs in a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_count.html"
+    },
+    {
+      "name": "regexp_instr",
+      "args": "<subject>, <pattern> [, <position> [, <occurrence> [, <option> [, <regexp_parameters> [, <group_num> ] ] ] ] ]",
+      "desc": "Returns the position of the specified occurrence of the regular expression pattern in the string subject",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_instr.html"
+    },
+    {
+      "name": "regexp_like",
+      "args": "<subject>, <pattern> [, <parameters> ]",
+      "desc": "Returns true if the subject matches the specified pattern",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_like.html"
+    },
+    {
+      "name": "regexp_replace",
+      "args": "<subject>, <pattern> [, <replacement>, <position>, <occurrence>, <parameters> ]",
+      "desc": "Returns the subject with the specified pattern (or all occurrences of the pattern) either removed or replaced by a replacement string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_replace.html"
+    },
+    {
+      "name": "regexp_substr",
+      "args": "<subject>, <pattern> [, <position> [, <occurrence> [, <regex_parameters> [, <group_num> ] ] ] ]",
+      "desc": "Returns the substring that matches a regular expression within a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_substr.html"
+    },
+    {
+      "name": "regexp_substr_all",
+      "args": "<subject>, <pattern> [, <position> [, <occurrence> [, <regex_parameters> [, <group_num> ] ] ] ]",
+      "desc": "Returns an ARRAY that contains all substrings that match a regular expression within a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regexp_substr_all.html"
+    },
+    {
+      "name": "regr_avgx",
+      "args": "y, x",
+      "desc": "Returns the average of the independent variable for non-null pairs in a group, where x is the independent variable and y is the dependent variable",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_avgx.html"
+    },
+    {
+      "name": "regr_avgy",
+      "args": "y, x",
+      "desc": "Returns the average of the dependent variable for non-null pairs in a group, where x is the independent variable and y is the dependent variable",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_avgy.html"
+    },
+    {
+      "name": "regr_count",
+      "args": "y, x",
+      "desc": "Returns the number of non-null number pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_count.html"
+    },
+    {
+      "name": "regr_intercept",
+      "args": "y, x",
+      "desc": "Returns the intercept of the univariate linear regression line for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_intercept.html"
+    },
+    {
+      "name": "regr_r2",
+      "args": "x",
+      "desc": "Returns the coefficient of determination for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_r2.html"
+    },
+    {
+      "name": "regr_slope",
+      "args": "y, x",
+      "desc": "Returns the slope of the linear regression line for non-null pairs in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_slope.html"
+    },
+    {
+      "name": "regr_sxx",
+      "args": "y, x",
+      "desc": "Returns REGR_COUNT(y, x) * VAR_POP(x) for non-null pairs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_sxx.html"
+    },
+    {
+      "name": "regr_sxy",
+      "args": "y, x",
+      "desc": "Returns REGR_COUNT(expr1, expr2) * COVAR_POP(expr1, expr2) for non-null pairs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_sxy.html"
+    },
+    {
+      "name": "regr_syy",
+      "args": "y, x",
+      "desc": "Returns REGR_COUNT(y, x) * VAR_POP(y) for non-null pairs",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_syy.html"
+    },
+    {
+      "name": "regr_valx",
+      "args": "<y>, <x>",
+      "desc": "Returns NULL if the first argument is NULL; otherwise, returns the second argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_valx.html"
+    },
+    {
+      "name": "regr_valy",
+      "args": "<y>, <x>",
+      "desc": "Returns NULL if the second argument is NULL; otherwise, returns the first argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_valy.html"
+    },
+    {
+      "name": "repeat",
+      "args": "<input>, <n>",
+      "desc": "Builds a string by repeating the input for the specified number of times",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/repeat.html"
+    },
+    {
+      "name": "replace",
+      "args": "<subject>, <pattern> [, <replacement> ]",
+      "desc": "Removes all occurrences of a specified substring, and optionally replaces them with another string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/replace.html"
+    },
+    {
+      "name": "replication_group_refresh_history",
+      "args": "'<secondary_group_name>'",
+      "desc": "(Standard & Business Critical Feature) Returns the replication history for a secondary replication or failover group within the last 14 days",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/replication_group_refresh_history.html"
+    },
+    {
+      "name": "replication_group_refresh_progress",
+      "args": "'<secondary_group_name>'",
+      "desc": "(Standard & Business Critical Feature) The REPLICATION_GROUP_REFRESH_PROGRESS family of functions can be used to query the status of a replication or failover group refresh",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/replication_group_refresh_progress.html"
+    },
+    {
+      "name": "replication_group_usage_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, REPLICATION_GROUP_NAME => '<string>' ]",
+      "desc": "(Standard & Business Critical Feature) Returns the replication usage history for secondary replication or failover groups within the last 14 days",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/replication_group_usage_history.html"
+    },
+    {
+      "name": "replication_usage_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, DATABASE_NAME => '<string>' ]",
+      "desc": "This table function can be used to query the replication history for a specified database within a specified date range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/replication_usage_history.html"
+    },
+    {
+      "name": "rest_event_history",
+      "args": "REST_SERVICE_TYPE => 'scim' [, TIME_RANGE_START => <constant_expr> ] [, TIME_RANGE_END => <constant_expr> ] [, RESULT_LIMIT => <integer> ]",
+      "desc": "Returns a list of SCIM REST API requests made to Snowflake over a specified time interval",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rest_event_history.html"
+    },
+    {
+      "name": "result_scan",
+      "args": "{ '<query_id>'  | LAST_QUERY_ID(",
+      "desc": "Returns the result set of a previous command (within 24 hours of when you executed the query) as if the result was a table",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/result_scan.html"
+    },
+    {
+      "name": "reverse",
+      "args": "<subject>",
+      "desc": "Reverses the order of characters in a string, or of bytes in a binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/reverse.html"
+    },
+    {
+      "name": "right",
+      "args": "<expr>, <length_expr>",
+      "desc": "Returns a rightmost substring of its input",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/right.html"
+    },
+    {
+      "name": "round",
+      "args": "<input_expr> [, <scale_expr> ]",
+      "desc": "Returns rounded values for input_expr",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/round.html"
+    },
+    {
+      "name": "row_number",
+      "args": "",
+      "desc": "Returns a unique row number for each row within a window partition",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/row_number.html"
+    },
+    {
+      "name": "rpad",
+      "args": "<base>, <length_expr> [, <pad>]",
+      "desc": "Right-pads a string with characters from another string, or right-pads a binary value with bytes from another binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rpad.html"
+    },
+    {
+      "name": "rtrim",
+      "args": "<expr> [, <characters> ]",
+      "desc": "Removes trailing characters, including whitespace, from a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rtrim.html"
+    },
+    {
+      "name": "rtrimmed_length",
+      "args": "<string_expr>",
+      "desc": "Returns the length of its argument, minus trailing whitespace, but including leading whitespace",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/rtrimmed_length.html"
+    },
+    {
+      "name": "search_optimization_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, TABLE_NAME => '<string>' ]",
+      "desc": "(Enterprise Edition Feature) This table function is used for querying the search optimization service maintenance history for a specified table within a specified date range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/search_optimization_history.html"
+    },
+    {
+      "name": "serverless_task_history",
+      "args": "[ DATE_RANGE_START => <constant_expr> ] [, DATE_RANGE_END => <constant_expr> ] [, TASK_NAME => '<string>' ]",
+      "desc": "This table function is used for querying the serverless task usage history",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/serverless_task_history.html"
+    },
+    {
+      "name": "sha1",
+      "args": "<msg>",
+      "desc": "Returns a 40-character hex-encoded string containing the 160-bit SHA-1 message digest",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sha1.html"
+    },
+    {
+      "name": "sha1_binary",
+      "args": "<msg>",
+      "desc": "Returns a 20-byte binary containing the 160-bit SHA-1 message digest",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sha1_binary.html"
+    },
+    {
+      "name": "sha2",
+      "args": "<msg> [, <digest_size>]",
+      "desc": "Returns a hex-encoded string containing the N-bit SHA-2 message digest, where N is the specified output digest size",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sha2.html"
+    },
+    {
+      "name": "sha2_binary",
+      "args": "<msg> [, <digest_size>]",
+      "desc": "Returns a binary containing the N-bit SHA-2 message digest, where N is the specified output digest size",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sha2_binary.html"
+    },
+    {
+      "name": "sign",
+      "args": "<expr>",
+      "desc": "Returns the sign of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sign.html"
+    },
+    {
+      "name": "sin",
+      "args": "<real_expr>",
+      "desc": "Computes the sine of its argument; the argument should be expressed in radians",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sin.html"
+    },
+    {
+      "name": "sinh",
+      "args": "<real_expr>",
+      "desc": "Computes the hyperbolic sine of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sinh.html"
+    },
+    {
+      "name": "skew",
+      "args": "<expr>",
+      "desc": "Returns the sample skewness of non-NULL records",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/skew.html"
+    },
+    {
+      "name": "soundex",
+      "args": "<varchar_expr>",
+      "desc": "Returns a string that contains a phonetic representation of the input string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/soundex.html"
+    },
+    {
+      "name": "soundex_p123",
+      "args": "<varchar_expr>",
+      "desc": "Returns a string that contains a phonetic representation of the input string, and retains the Soundex code number for the second letter when the first and second letters use the same number",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/soundex_p123.html"
+    },
+    {
+      "name": "space",
+      "args": "<n>",
+      "desc": "Builds a string consisting of the specified number of blank spaces",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/space.html"
+    },
+    {
+      "name": "split",
+      "args": "<string>, <separator>",
+      "desc": "Splits a given string with a given separator and returns the result in an array of strings",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/split.html"
+    },
+    {
+      "name": "split_part",
+      "args": "<string>, <delimiter>, <partNumber>",
+      "desc": "Splits a given string at a specified character and returns the requested part",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/split_part.html"
+    },
+    {
+      "name": "split_to_table",
+      "args": "<string>, <delimiter>",
+      "desc": "This table function splits a string (based on a specified delimiter) and flattens the results into rows",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/split_to_table.html"
+    },
+    {
+      "name": "sqrt",
+      "args": "expr",
+      "desc": "Returns the square-root of a non-negative numeric expression",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sqrt.html"
+    },
+    {
+      "name": "square",
+      "args": "expr",
+      "desc": "Returns the square of a numeric expression ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/square.html"
+    },
+    {
+      "name": "st_area",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the area of the Polygon(s) in a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_area.html"
+    },
+    {
+      "name": "st_asewkb",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the binary representation of that value in EWKB (extended well-known binary) format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asewkb.html"
+    },
+    {
+      "name": "st_asewkt",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the text (VARCHAR) representation of that value in EWKT (extended well-known text) format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asewkt.html"
+    },
+    {
+      "name": "st_asgeojson",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the GeoJSON representation of that value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asgeojson.html"
+    },
+    {
+      "name": "st_aswkb",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the binary representation of that value in WKB (well-known binary) format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_aswkb.html"
+    },
+    {
+      "name": "st_aswkt",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the text (VARCHAR) representation of that value in WKT (well-known text) format",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_aswkt.html"
+    },
+    {
+      "name": "st_azimuth",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Given two Points that are GEOGRAPHY objects, returns the azimuth (in radians) of the line segment formed by the two points",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_azimuth.html"
+    },
+    {
+      "name": "st_centroid",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the Point representing the geometric center of a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_centroid.html"
+    },
+    {
+      "name": "st_collect",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "There are two forms of ST_COLLECT",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_collect.html"
+    },
+    {
+      "name": "st_contains",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Returns TRUE if a GEOGRAPHY or GEOMETRY object is completely inside another object of the same type",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_contains.html"
+    },
+    {
+      "name": "st_coveredby",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) This returns TRUE if no point in one geospatial object is outside another geospatial object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_coveredby.html"
+    },
+    {
+      "name": "st_covers",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) This returns TRUE if no point in one geospatial object is outside of another geospatial object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_covers.html"
+    },
+    {
+      "name": "st_difference",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the points in the first object that are not in the second object ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_difference.html"
+    },
+    {
+      "name": "st_dimension",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Given a value of type GEOGRAPHY or GEOMETRY, return the “dimension” of the value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_dimension.html"
+    },
+    {
+      "name": "st_disjoint",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Returns TRUE if the two GEOGRAPHY objects or the two GEOMETRY objects are disjoint ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_disjoint.html"
+    },
+    {
+      "name": "st_distance",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Returns the minimum geodesic distance between two GEOGRAPHY or the minimum Euclidean distance between two GEOMETRY objects",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_distance.html"
+    },
+    {
+      "name": "st_dwithin",
+      "args": "<geography_expression_1>, <geography_expression_2>, <distance_in_meters>",
+      "desc": "Returns TRUE if the minimum geodesic distance between two points (two GEOGRAPHY objects) is within the specified distance",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_dwithin.html"
+    },
+    {
+      "name": "st_endpoint",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the last Point in a LineString",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_endpoint.html"
+    },
+    {
+      "name": "st_envelope",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the minimum bounding box (a rectangular “envelope”) that encloses a specified GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_envelope.html"
+    },
+    {
+      "name": "st_geogfromgeohash",
+      "args": "<geohash> [, <precision> ]",
+      "desc": "Returns a GEOGRAPHY object for the polygon that represents the boundaries of a geohash",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geogfromgeohash.html"
+    },
+    {
+      "name": "geohash",
+      "args": "<geography_expression> [, <precision> ]",
+      "desc": "Returns the geohash for a GEOGRAPHY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geohash.html"
+    },
+    {
+      "name": "st_geogpointfromgeohash",
+      "args": "<geohash>",
+      "desc": "Returns a GEOGRAPHY object for the Point that represents the center of a geohash",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geogpointfromgeohash.html"
+    },
+    {
+      "name": "st_geographyfromwkb",
+      "args": "<varchar_or_binary_expression>",
+      "desc": "Parses a WKB (well-known binary) or EWKB (extended well-known binary) input and returns a value of type GEOGRAPHY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geographyfromwkb.html"
+    },
+    {
+      "name": "st_geographyfromwkt",
+      "args": "<varchar_expression>",
+      "desc": "Parses a WKT (well-known text) or EWKT (extended well-known text) input and returns a value of type GEOGRAPHY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geographyfromwkt.html"
+    },
+    {
+      "name": "st_geohash",
+      "args": "<geography_expression> [, <precision> ]",
+      "desc": "Returns the geohash for a GEOGRAPHY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geohash.html"
+    },
+    {
+      "name": "st_geometryfromwkb",
+      "args": "<varchar_or_binary_expression>",
+      "desc": "(Preview Feature — Open) Parses a WKB (well-known binary) or EWKB (extended well-known binary) input and returns a value of type GEOMETRY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geometryfromwkb.html"
+    },
+    {
+      "name": "st_geometryfromwkt",
+      "args": "<varchar_expression>",
+      "desc": "(Preview Feature — Open) Parses a WKT (well-known text) or EWKT (extended well-known text) input and returns a value of type GEOMETRY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geometryfromwkt.html"
+    },
+    {
+      "name": "st_hausdorffdistance",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Returns the discrete Hausdorff distance between two GEOGRAPHY objects",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_hausdorffdistance.html"
+    },
+    {
+      "name": "st_intersection",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the set of points that are common to both input objects ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_intersection.html"
+    },
+    {
+      "name": "st_intersects",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Returns TRUE if the two GEOGRAPHY objects or the two GEOMETRY objects intersect ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_intersects.html"
+    },
+    {
+      "name": "st_length",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the geodesic length of the LineString(s) in a GEOGRAPHY object or the Euclidean length of the LineString(s) in a GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_length.html"
+    },
+    {
+      "name": "st_makegeompoint",
+      "args": "<longitude>, <latitude>",
+      "desc": "(Preview Feature — Open) Constructs a GEOMETRY object that represents a Point with the specified longitude and latitude",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makegeompoint.html"
+    },
+    {
+      "name": "st_makeline",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Constructs a GEOGRAPHY or GEOMETRY object that represents a line connecting the points in the input objects",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makeline.html"
+    },
+    {
+      "name": "st_makepoint",
+      "args": "<longitude>, <latitude>",
+      "desc": "Constructs a GEOGRAPHY object that represents a point with the specified longitude and latitude",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makepoint.html"
+    },
+    {
+      "name": "st_makepolygon",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Constructs a GEOGRAPHY or GEOGRAPHY object that represents a polygon without holes",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makepolygon.html"
+    },
+    {
+      "name": "st_npoints",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the number of points in a GEOGRAPHY or GEOGRAPHY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_npoints.html"
+    },
+    {
+      "name": "st_perimeter",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the length of the perimeter of the polygon(s) in a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_perimeter.html"
+    },
+    {
+      "name": "st_pointn",
+      "args": "<geography_or_geometry_expression>, <index>",
+      "desc": "(Preview Feature — Open) Returns a Point at a specified index in a LineString",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_pointn.html"
+    },
+    {
+      "name": "st_setsrid",
+      "args": "<geometry_expression>, <srid>",
+      "desc": "(Preview Feature — Private) Returns a GEOMETRY object that has its SRID (spatial reference system identifier) set to the specified value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_setsrid.html"
+    },
+    {
+      "name": "st_simplify",
+      "args": "<geography_expression>, <tolerance> [, <preserve_collapsed> ]",
+      "desc": "Given an input GEOGRAPHY object that represents a line or polygon, returns a simpler approximation of the object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_simplify.html"
+    },
+    {
+      "name": "st_srid",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the SRID (spatial reference system identifier) of a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_srid.html"
+    },
+    {
+      "name": "st_startpoint",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the first Point in a LineString",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_startpoint.html"
+    },
+    {
+      "name": "st_symdifference",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the set of points from both input objects that are not part of the intersection of the objects ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_symdifference.html"
+    },
+    {
+      "name": "st_union",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the combined set of all points from both objects ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_union.html"
+    },
+    {
+      "name": "st_within",
+      "args": "<geography_expression_1>, <geography_expression_2>",
+      "desc": "(Preview Feature — Open) Returns true if the the first geospatial object is fully contained by the second geospatial object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_within.html"
+    },
+    {
+      "name": "st_x",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the longitude (X coordinate) of a Point represented by a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_x.html"
+    },
+    {
+      "name": "st_xmax",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the maximum longitude (X coordinate) of all points contained in the specified GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_xmax.html"
+    },
+    {
+      "name": "st_xmin",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the minimum longitude (X coordinate) of all points contained in the specified GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_xmin.html"
+    },
+    {
+      "name": "st_y",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the latitude (Y coordinate) of a Point represented by a GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_y.html"
+    },
+    {
+      "name": "st_ymax",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the maximum latitude (Y coordinate) of all points contained in the specified GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_ymax.html"
+    },
+    {
+      "name": "st_ymin",
+      "args": "<geography_or_geometry_expression>",
+      "desc": "(Preview Feature — Open) Returns the minimum latitude (Y coordinate) of all points contained in the specified GEOGRAPHY or GEOMETRY object",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/st_ymin.html"
+    },
+    {
+      "name": "stage_directory_file_registration_history",
+      "args": "STAGE_NAME => '<string>' [, START_TIME => <constant_expr> ]",
+      "desc": "This table function can be used to query information about the metadata history for a directory table, including",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/stage_directory_file_registration_history.html"
+    },
+    {
+      "name": "startswith",
+      "args": "<expr1>, <expr2>",
+      "desc": "Returns true if expr1 starts with expr2",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/startswith.html"
+    },
+    {
+      "name": "stddev",
+      "args": "[ DISTINCT ] <expression_1>",
+      "desc": "Returns the sample standard deviation (square root of sample variance) of non-NULL values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/stddev.html"
+    },
+    {
+      "name": "stddev_pop",
+      "args": "[ DISTINCT ] expression_1",
+      "desc": "Returns the population standard deviation (square root of variance) of non-NULL values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/stddev_pop.html"
+    },
+    {
+      "name": "stddev_samp",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the sample standard deviation (square root of sample variance) of non-NULL values",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/stddev_samp.html"
+    },
+    {
+      "name": "strip_null_value",
+      "args": "<expr>",
+      "desc": "Converts a JSON “null” value to a SQL NULL value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/strip_null_value.html"
+    },
+    {
+      "name": "strtok",
+      "args": "<string> [,<delimiter>] [,<partNr>]",
+      "desc": "Tokenizes a given string and returns the requested part",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/strtok.html"
+    },
+    {
+      "name": "strtok_split_to_table",
+      "args": "<string> [,<delimiter_list>]",
+      "desc": "Tokenizes a string with the given set of delimiters and flattens the results into rows",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/strtok_split_to_table.html"
+    },
+    {
+      "name": "strtok_to_array",
+      "args": "<string> [,<delimiter>]",
+      "desc": "Tokenizes the given string using the given set of delimiters and returns the tokens as an array",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/strtok_to_array.html"
+    },
+    {
+      "name": "substr",
+      "args": "<base_expr>, <start_expr> [, <length_expr> ]",
+      "desc": "Returns the portion of the string or binary value from base_expr, starting from the character/byte specified by start_expr, with optionally limited length",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/substr.html"
+    },
+    {
+      "name": "sum",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the sum of non-NULL records for expr",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sum.html"
+    },
+    {
+      "name": "sysdate",
+      "args": "",
+      "desc": "Returns the current timestamp for the system, but in the UTC time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/sysdate.html"
+    },
+    {
+      "name": "task_history",
+      "args": "[ SCHEDULED_TIME_RANGE_START => <constant_expr> ] [, SCHEDULED_TIME_RANGE_END => <constant_expr> ] [, RESULT_LIMIT => <integer> ] [, TASK_NAME => '<string>' ] [, ERROR_ONLY => { TRUE | FALSE } ]",
+      "desc": "This table function can be used to query the history of task usage within a specified date range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/task_history.html"
+    },
+    {
+      "name": "tag_references",
+      "args": "'<object_name>', '<object_domain>'",
+      "desc": "(Enterprise Edition Feature) Returns a table in which each row displays an association between a tag and value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/tag_references.html"
+    },
+    {
+      "name": "tag_references_all_columns",
+      "args": "'<object_name>', '<object_domain>'",
+      "desc": "(Enterprise Edition Feature) Returns a table in which each row displays the tag name and tag value assigned to a specific column",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/tag_references_all_columns.html"
+    },
+    {
+      "name": "tag_references_with_lineage",
+      "args": "'<name>'",
+      "desc": "(Enterprise Edition Feature) Returns a table in which each row displays an association between the specified tag and the Snowflake object to which the tag is associated",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/tag_references_with_lineage.html"
+    },
+    {
+      "name": "tan",
+      "args": "<real_expr>",
+      "desc": "Computes the tangent of its argument; the argument should be expressed in radians",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/tan.html"
+    },
+    {
+      "name": "tanh",
+      "args": "<real_expr>",
+      "desc": "Computes the hyperbolic tangent of its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/tanh.html"
+    },
+    {
+      "name": "task_dependents",
+      "args": "TASK_NAME => '<string>' [, RECURSIVE => <Boolean> ]",
+      "desc": "This table function returns the list of child tasks for a given root task in a DAG of tasks",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/task_dependents.html"
+    },
+    {
+      "name": "time_from_parts",
+      "args": "<hour>, <minute>, <second> [, <nanoseconds>]",
+      "desc": "Creates a time from individual numeric components",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/time_from_parts.html"
+    },
+    {
+      "name": "time_slice",
+      "args": "<date_or_time_expr>, <slice_length>, <date_or_time_part> [, <start_or_end> ]",
+      "desc": "Calculates the beginning or end of a “slice” of time, where the length of the slice is a multiple of a standard unit of time (minute, hour, day, etc",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/time_slice.html"
+    },
+    {
+      "name": "timeadd",
+      "args": "<date_or_time_part>, <value>, <date_or_time_expr>",
+      "desc": "Adds the specified value for the specified date or time part to a date, time, or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/timeadd.html"
+    },
+    {
+      "name": "timediff",
+      "args": "<date_or_time_part>, <date_or_time_expr1>, <date_or time_expr2>",
+      "desc": "Calculates the difference between two date, time, or timestamp expressions based on the specified date or time part",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/timediff.html"
+    },
+    {
+      "name": "timestamp_from_parts",
+      "args": "<year>, <month>, <day>, <hour>, <minute>, <second> [, <nanosecond> ] [, <time_zone> ]",
+      "desc": "Creates a timestamp from individual numeric components",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/timestamp_from_parts.html"
+    },
+    {
+      "name": "timestampadd",
+      "args": "<date_or_time_part>, <time_value>, <date_or_time_expr>",
+      "desc": "Adds the specified value for the specified date or time part to a date, time, or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/timestampadd.html"
+    },
+    {
+      "name": "timestampdiff",
+      "args": "<date_or_time_part>, <date_or_time_expr1>, <date_or_time_expr2>",
+      "desc": "Calculates the difference between two date, time, or timestamp expressions based on the specified date or time part",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/timestampdiff.html"
+    },
+    {
+      "name": "to_array",
+      "args": "<expr>",
+      "desc": "Converts the input expression to an ARRAY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_array.html"
+    },
+    {
+      "name": "to_binary",
+      "args": "<expr>",
+      "desc": "Converts the input expression to a binary value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_binary.html"
+    },
+    {
+      "name": "to_boolean",
+      "args": "<expr>",
+      "desc": "Coverts the input text or numeric expression to a Boolean value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_boolean.html"
+    },
+    {
+      "name": "to_char",
+      "args": "<expr>",
+      "desc": "Converts the input expression to a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_char.html"
+    },
+    {
+      "name": "to_date",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a date",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_date.html"
+    },
+    {
+      "name": "to_decimal",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a fixed-point number",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_decimal.html"
+    },
+    {
+      "name": "to_double",
+      "args": "<expr>",
+      "desc": "Converts an expression to a double-precision floating-point number",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_double.html"
+    },
+    {
+      "name": "to_geography",
+      "args": "<expr>",
+      "desc": "Parses an input and returns a value of type GEOGRAPHY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_geography.html"
+    },
+    {
+      "name": "to_geometry",
+      "args": "<expr>",
+      "desc": "(Preview Feature — Open) Parses an input and returns a value of type GEOMETRY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_geometry.html"
+    },
+    {
+      "name": "to_json",
+      "args": "<expr>",
+      "desc": "Converts a VARIANT value to a string containing the JSON representation of the value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_json.html"
+    },
+    {
+      "name": "to_object",
+      "args": "<expr>",
+      "desc": "Converts the input value to an OBJECT",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_object.html"
+    },
+    {
+      "name": "to_time",
+      "args": "<expr>",
+      "desc": "Converts an input expression into a time",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_time.html"
+    },
+    {
+      "name": "to_timestamp",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a timestamp based on the TIMESTAMP_TYPE_MAPPING session parameter",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_timestamp.html"
+    },
+    {
+      "name": "to_timestamp_ltz",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a timestamp with local time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_timestamp.html"
+    },
+    {
+      "name": "to_timestamp_ntz",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a timestamp with no time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_timestamp.html"
+    },
+    {
+      "name": "to_timestamp_tz",
+      "args": "<expr>",
+      "desc": "Converts an input expression to a timestamp with time zone",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_timestamp.html"
+    },
+    {
+      "name": "to_variant",
+      "args": "<expr>",
+      "desc": "Converts any value to a VARIANT value or NULL (if input is NULL)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_variant.html"
+    },
+    {
+      "name": "to_xml",
+      "args": "<expr>",
+      "desc": "Converts any VARIANT value to a string containing the XML representation of the value",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/to_xml.html"
+    },
+    {
+      "name": "translate",
+      "args": "<subject>, <sourceAlphabet>, <targetAlphabet>",
+      "desc": "The TRANSLATE() function replaces characters in a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/translate.html"
+    },
+    {
+      "name": "trim",
+      "args": "<expr> [, <characters> ]",
+      "desc": "Removes leading and trailing characters from a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/trim.html"
+    },
+    {
+      "name": "truncate",
+      "args": "<input_expr> [, <scale_expr> ]",
+      "desc": "Rounds the input expression down to the nearest (or equal) integer closer to zero, or to the nearest equal or smaller value with the specified number of places after the decimal point",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/trunc.html"
+    },
+    {
+      "name": "trunc",
+      "args": "<date_or_time_expr>, <date_or_time_part>",
+      "desc": "Truncates a date, time, or timestamp to the specified part",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/trunc2.html"
+    },
+    {
+      "name": "try_base64_decode_binary",
+      "args": "<input> [, <alphabet>]",
+      "desc": "A special version of BASE64_DECODE_BINARY that returns a NULL value if an error occurs during decoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_base64_decode_binary.html"
+    },
+    {
+      "name": "try_base64_decode_string",
+      "args": "<input> [, <alphabet>]",
+      "desc": "A special version of BASE64_DECODE_STRING that returns a NULL value if an error occurs during decoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_base64_decode_string.html"
+    },
+    {
+      "name": "try_cast",
+      "args": "<source_string_expr> AS <target_data_type>",
+      "desc": "A special version of CAST , ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_cast.html"
+    },
+    {
+      "name": "try_hex_decode_binary",
+      "args": "<input>",
+      "desc": "A special version of HEX_DECODE_BINARY that returns a NULL value if an error occurs during decoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_hex_decode_binary.html"
+    },
+    {
+      "name": "try_hex_decode_string",
+      "args": "<input>",
+      "desc": "A special version of HEX_DECODE_STRING that returns a NULL value if an error occurs during decoding",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_hex_decode_string.html"
+    },
+    {
+      "name": "try_parse_json",
+      "args": "<expr>",
+      "desc": "A special version of PARSE_JSON that returns a NULL value if an error occurs during parsing",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_parse_json.html"
+    },
+    {
+      "name": "try_to_binary",
+      "args": "<string_expr> [, '<format>']",
+      "desc": "A special version of TO_BINARY that performs the same operation ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_binary.html"
+    },
+    {
+      "name": "try_to_boolean",
+      "args": "<string_expr>",
+      "desc": "A special version of TO_BOOLEAN that performs the same operation ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_boolean.html"
+    },
+    {
+      "name": "try_to_date",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_DATE , DATE that performs the same operation ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_date.html"
+    },
+    {
+      "name": "try_to_decimal",
+      "args": "<string_expr> [, '<format>' ] [, <precision> [, <scale> ] ]",
+      "desc": "A special version of TO_DECIMAL , TO_NUMBER , TO_NUMERIC that performs the same operation ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_decimal.html"
+    },
+    {
+      "name": "try_to_double",
+      "args": "<string_expr>",
+      "desc": "A special version of TO_DOUBLE that performs the same operation ",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_double.html"
+    },
+    {
+      "name": "try_to_geography",
+      "args": "<varchar_expression>",
+      "desc": "Parses an input and returns a value of type GEOGRAPHY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_geography.html"
+    },
+    {
+      "name": "try_to_geometry",
+      "args": "<varchar_expression>",
+      "desc": "(Preview Feature — Open) Parses an input and returns a value of type GEOMETRY",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_geometry.html"
+    },
+    {
+      "name": "try_to_time",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_TIME that performs the same operation but with error-handling support",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_time.html"
+    },
+    {
+      "name": "try_to_timestamp",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_TIMESTAMP that performs the same operation, but with error-handling support",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_timestamp.html"
+    },
+    {
+      "name": "try_to_timestamp_ltz",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_TIMESTAMP_LTZ that performs the same operation, but with error-handling support",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_timestamp.html"
+    },
+    {
+      "name": "try_to_timestamp_ntz",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_TIMESTAMP_NTZ that performs the same operation, but with error-handling support",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_timestamp.html"
+    },
+    {
+      "name": "try_to_timestamp_tz",
+      "args": "<string_expr> [, <format> ]",
+      "desc": "A special version of TO_TIMESTAMP_TZ that performs the same operation, but with error-handling support",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_timestamp.html"
+    },
+    {
+      "name": "typeof",
+      "args": "<expr>",
+      "desc": "Reports the type of a value stored in a VARIANT column",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/typeof.html"
+    },
+    {
+      "name": "unicode",
+      "args": "<input>",
+      "desc": "Returns the Unicode code point for the first Unicode character in a string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/unicode.html"
+    },
+    {
+      "name": "uniform",
+      "args": "<min>, <max>, <gen>",
+      "desc": "Returns a uniformly random number, in the inclusive range [min, max]",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/uniform.html"
+    },
+    {
+      "name": "upper",
+      "args": "<expr>",
+      "desc": "Returns the input string expr with all characters converted to uppercase",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/upper.html"
+    },
+    {
+      "name": "uuid_string",
+      "args": "",
+      "desc": "Generates either a version 4 (random) or version 5 (named) RFC 4122-compliant UUID as a formatted string",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/uuid_string.html"
+    },
+    {
+      "name": "validate",
+      "args": "[<namespace>.]<table_name>, JOB_ID => { '<query_id>' | '_last' }",
+      "desc": "Validates the files loaded in a past execution of the COPY INTO <table> command and returns all the errors encountered during the load, rather than just the first error",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/validate.html"
+    },
+    {
+      "name": "validate_pipe_load",
+      "args": "PIPE_NAME => '<string>' , START_TIME => <constant_expr> [, END_TIME => <constant_expr> ]",
+      "desc": "This table function can be used to validate data files processed by Snowpipe within a specified time range",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/validate_pipe_load.html"
+    },
+    {
+      "name": "var_pop",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the population variance of non-NULL records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/var_pop.html"
+    },
+    {
+      "name": "var_samp",
+      "args": "[DISTINCT] <expr1>",
+      "desc": "Returns the sample variance of non-NULL records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/var_samp.html"
+    },
+    {
+      "name": "variance",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the sample variance of non-NULL records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/variance.html"
+    },
+    {
+      "name": "variance_pop",
+      "args": "[ DISTINCT ] <expr1>",
+      "desc": "Returns the population variance of non-NULL records in a group",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/variance_pop.html"
+    },
+    {
+      "name": "width_bucket",
+      "args": "<expr>, <min_value>, <max_value>, <num_buckets>",
+      "desc": "Constructs equi-width histograms, in which the histogram range is divided into intervals of identical size, and returns the bucket number into which the value of an expression falls, after it has been evaluated",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/width_bucket.html"
+    },
+    {
+      "name": "xmlget",
+      "args": "<expression>, <tag_name> [, <instance_number> ]",
+      "desc": "Extracts an XML element object (often referred to as simply a “tag”) from a content of outer XML element object by the name of the tag and its instance number (counting from 0)",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/xmlget.html"
+    },
+    {
+      "name": "year",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "yearofweek",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the year that the extracted week belongs to from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "yearofweekiso",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the same as YEAROFWEEK, except uses ISO semantics from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "day",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the day (number) of the month from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "dayofweek",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the day (number) of the week from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "dayofweekiso",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the same as DAYOFWEEK, except uses ISO semantics from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "dayofyear",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the day (number) of the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "dayofmonth",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the day (number) of the month from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "week",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the week (number) of the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "weekiso",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the same as WEEK, except uses ISO semantics from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "weekofyear",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the week (number) of the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "month",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the month (number) of the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "quarter",
+      "args": "<date_or_timestamp_expr>",
+      "desc": "Extracts the quarter (number) of the year from a date or timestamp",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/year.html"
+    },
+    {
+      "name": "zeroifnull",
+      "args": "<expr>",
+      "desc": "Returns 0 if its argument is null; otherwise, returns its argument",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/zeroifnull.html"
+    },
+    {
+      "name": "zipf",
+      "args": "<s>, <N>, <gen>",
+      "desc": "Returns a Zipf-distributed integer, for N elements and characteristic exponent s",
+      "url": "https://docs.snowflake.com/en/sql-reference/functions/zipf.html"
+    }
+  ]
+}

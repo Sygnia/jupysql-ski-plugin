@@ -1,138 +1,141 @@
-import { Compartment, EditorState, Extension } from "@codemirror/state"
-import { python } from "@codemirror/lang-python"
-import { sql, PostgreSQL, SQLDialect} from '@codemirror/lang-sql'
-import { parser as pythonParser } from '@lezer/python'
+import {Extension} from "@codemirror/state"
+import {sql, PostgreSQL, SQLDialect} from '@codemirror/lang-sql'
+import {parser as pythonParser} from '@lezer/python'
 import {parseMixed} from "@lezer/common"
 import {LRLanguage} from "@codemirror/language"
-const MAGIC = '%%sql';
+import {keywords as snowflakeKeywordsSchema, functions as snowflakeFunctionsSchema} from '../snowflake_schema.json';
+import {LRParser} from '@lezer/lr';
+import {styleTags, tags} from "@lezer/highlight"
 
+/**
+ * This is based on CodeMirror overlays (https://codemirror.net/examples/mixed-language/)
+ * And mostly taken from this examples from this thread:
+ * https://discuss.codemirror.net/t/accessing-syntax-tree-of-nested-language-within-autocomplete/6499
+ */
+
+let snowflakeKeywords: string[] = snowflakeKeywordsSchema.map((k) => k["name"]);
+let snowflakeFunctions: string[] = snowflakeFunctionsSchema.map((k) => k["name"]);
+/**
+ * Define a "ski dialect" to include snowflake keywords + ski keywords
+ */
 let skiSnowflakeDialect = SQLDialect.define({
     charSetCasts: true,
     doubleDollarQuotedStrings: true,
     operatorChars: "+-*/<>=~!@#%^&|`?",
     specialVar: "",
-    keywords: PostgreSQL.spec.keywords + ' v_name listagg ',
-    types: PostgreSQL.spec.types
+    keywords:  snowflakeKeywords.join(" "),
+    types: snowflakeFunctions.join(" "),
+    slashComments: true
 });
-// @ts-ignore
-console.log(skiSnowflakeDialect.dialect.words)
 
 const config = {
-  dialect: skiSnowflakeDialect
+    dialect: skiSnowflakeDialect
 }
 
 const sqlLang = sql(config);
+
 function skiPython() {
 
-  const mixedPythonLanguage = pythonParser.configure({
-    wrap: parseMixed((node, input) => {
-      const nodeIsAcceptedStringType =
-        node.name === 'String' || node.name === 'FormatString';
+    const mixedPythonLanguage = pythonParser.configure({
+        wrap: parseMixed((node, input) => {
 
-      if (
-        !nodeIsAcceptedStringType ||
-        node.node.parent?.name !== 'ArgList' ||
-        node.node.parent?.parent?.name !== 'CallExpression'
-      ) {
-        return null;
-      }
 
-      const functionExpression = node.node.parent.parent;
-      const isJavascript =
-        input.chunk(functionExpression.from).match(/^ski.search/i) !== null;
+            const nodeIsAcceptedStringType =
+                node.name === 'String' || node.name === 'FormatString';
 
-      if (!isJavascript) {
-        return null;
-      }
+            if (
+                !nodeIsAcceptedStringType ||
+                node.node.parent?.name !== 'ArgList' ||
+                node.node.parent?.parent?.name !== 'CallExpression'
+            ) {
+                return null;
+            }
 
-      const nodeText = input.read(node.from, node.to);
+            const functionExpression = node.node.parent.parent;
+            const isSkiSearch =
+                input.chunk(functionExpression.from).match(/^ski.search/i) !== null;
 
-      if (nodeText.length < 2) {
-        return null;
-      }
+            if (!isSkiSearch) {
+                return null;
+            }
 
-      const openingQuoteStatement = nodeText.match(
-        /^(?<openingQuote>[furbFURB]{0,2}(?:['"]{3}|['"]{1}))/,
-      )?.groups?.openingQuote;
+            const nodeText = input.read(node.from, node.to);
 
-      const from = openingQuoteStatement
-        ? node.from + openingQuoteStatement.length
-        : node.from;
+            if (nodeText.length < 2) {
+                return null;
+            }
 
-      const nodeTextWithoutOpeningQuote = openingQuoteStatement
-        ? nodeText.replace(openingQuoteStatement, '')
-        : nodeText;
+            // We want to get the exact location of the string content inside the quotes
 
-      const closingQuoteStatement = nodeTextWithoutOpeningQuote.match(
-        /(?<closingQuote>['"]{3}|['"]{1})$/,
-      )?.groups?.closingQuote;
+            const openingQuoteStatement = nodeText.match(
+                /^(?<openingQuote>[furbFURB]{0,2}(?:['"]{3}|['"]{1}))/,
+            )?.groups?.openingQuote;
 
-      const closingQuoteLength = closingQuoteStatement?.length ?? 0;
+            const from = openingQuoteStatement
+                ? node.from + openingQuoteStatement.length
+                : node.from;
 
-      const to = node.to - closingQuoteLength;
+            const nodeTextWithoutOpeningQuote = openingQuoteStatement
+                ? nodeText.replace(openingQuoteStatement, '')
+                : nodeText;
 
-      const overlay = [
-        {
-          from,
-          to,
-        },
-      ];
+            const closingQuoteStatement = nodeTextWithoutOpeningQuote.match(
+                /(?<closingQuote>['"]{3}|['"]{1})$/,
+            )?.groups?.closingQuote;
 
-      if (overlay[0].from >= overlay[0].to) {
-        return null;
-      }
+            const closingQuoteLength = closingQuoteStatement?.length ?? 0;
 
-      return {
-        parser: sqlLang.language.parser,
-        overlay,
-      };
-    }),
-  });
+            const to = node.to - closingQuoteLength;
 
-  //
-  // return new LanguageSupport(mixedPythonLanguage, [
-  //   sqlLang.language.data.of({autocomplete: customAutocomplete})
-  // ]);
-  return mixedPythonLanguage;
+
+            const overlay = [
+                {
+                    from,
+                    to,
+                },
+            ];
+
+            if (overlay[0].from >= overlay[0].to) {
+                return null;
+            }
+
+            let p: LRParser = sqlLang.language.parser as LRParser
+
+            /**
+             * Default highlighting ignores things that are not keywords (the green words)
+             * So we can further customize it here
+             */
+            p = p.configure({
+                props: [
+                    styleTags({
+                        // Type - things like array, count
+                        Type: tags.atom,
+                        // Identifier: tags.atom
+                    })
+                ]
+            })
+
+            return {
+                parser: p,
+                overlay,
+            };
+        }),
+    });
+
+    return mixedPythonLanguage;
 }
 
 
+const skiParser = skiPython();
 
-const mixedHTMLParser = pythonParser.configure({
-  wrap: parseMixed(node => {
-    console.log(node, node.name);
-    console.log(node.tree)
 
-    return node.name == "String" ? {parser: sql().language.parser} : null
-  })
+const skiPythonLRLanguage = LRLanguage.define({
+    parser: skiParser
 })
 
-const mixedHTML = LRLanguage.define({parser: mixedHTMLParser})
 
-const skiPythonLRLanguage = LRLanguage.define({parser: skiPython()})
-// const MAGIC = '%%sql';
-const languageConf = new Compartment;
-
-/**
- * This function is called for every transaction (change in cell input).
- * If the cell is an SQL cell (starting with '%%sql'), then the language is set to SQL.
- */
-const autoLanguage = EditorState.transactionExtender.of(tr => {
-    // Check if the cell input content start with '%%sql', and configure the syntax
-    // highlighting to SQL if necessary (default to python).
-    const isSQL = tr.newDoc.sliceString(0, MAGIC.length) === MAGIC;
-    return {
-        effects: languageConf.reconfigure(isSQL ? sql() : python())
-    };
-})
-console.log(autoLanguage, mixedHTML)
-
-
-
-// Full extension composed of elemental extensions
 export function languageSelection(): Extension {
     return [
-        // languageConf.of(python()),
         skiPythonLRLanguage,
     ];
 }
