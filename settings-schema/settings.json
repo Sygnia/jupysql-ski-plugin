@@ -6,7 +6,7 @@
             "type": "boolean",
             "title": "Show Format SQL button",
             "description": "If set, a button will be shown in the toolbar to format the SQL code.",
-            "default": true
+            "default": false
         }
     },
     "additionalProperties": false,

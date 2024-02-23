@@ -39,6 +39,7 @@ export class FormattingExtension
     }
 
     private _onSettingsChanged = (sender: any, settings: JupySQLSettings) => {
+        console.log(settings)
         if (!settings.showFormatSQL) {
             this.formatSQLButton.parent = null;
         } else {
@@ -89,7 +90,7 @@ const plugin_formatting: JupyterFrontEndPlugin<void> = {
         app.docRegistry.addWidgetExtension('Notebook', new RegisterNotebookCommListener());
 
     },
-    autoStart: true,
+    autoStart: false,
     id: "formatting",
     requires: [
         INotebookTracker,

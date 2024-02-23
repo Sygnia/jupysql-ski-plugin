@@ -5,6 +5,13 @@ import { Widget } from '@lumino/widgets';
 import { showErrorMessage } from '@jupyterlab/apputils';
 import { format } from 'sql-formatter';
 
+/**
+ * There are 2 challenges in making the formatter work with ski:
+ * 1. We need to create a regex that will know to extract the inner query from ski.search(...)
+ * 2. the format() function can't handle the {arguments} part, so it dost not format it.
+ */
+
+
 export class JupyterlabNotebookCodeFormatter {
     protected working: boolean;
     protected notebookTracker: INotebookTracker;
@@ -63,13 +70,15 @@ export class JupyterlabNotebookCodeFormatter {
                 const cell = selectedCells[i];
                 const text = cell.model.sharedModel.source;
 
-                if (text.startsWith("%%sql")) {
-                    const lines = text.split("\n");
-                    const sqlCommand = lines.shift();
+                if (text.includes("ski.search")) {
+                    const sqlCommand = text.match(/[furbFURB]{0,2}"""([\s\S]+)"""/)
+                    console.log(sqlCommand)
+
 
                     try {
-                        const query = format(lines.join("\n"), { language: 'sql', keywordCase: 'upper' })
-                        cell.model.sharedModel.source = sqlCommand + "\n" + query;
+                        const query = format(sqlCommand[1], { language: 'sql', keywordCase: 'upper' })
+                        console.log(query)
+                        cell.model.sharedModel.source = text.replace(sqlCommand[1], query)
                     } catch (error) {
                     }
 
