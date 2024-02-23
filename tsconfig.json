@@ -29,6 +29,7 @@
     "src/const/*",
     "src/completer/keywords.json",
     "src/snowflake_schema.json",
+    "src/ski_schema.json",
     "src/widgets/table.ts",
     "src/widgets/form.ts",
     "src/widgets/connector.ts",

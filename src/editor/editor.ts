@@ -1,9 +1,10 @@
 import {Extension} from "@codemirror/state"
-import {sql, PostgreSQL, SQLDialect} from '@codemirror/lang-sql'
+import {sql, SQLDialect,PostgreSQL} from '@codemirror/lang-sql'
 import {parser as pythonParser} from '@lezer/python'
 import {parseMixed} from "@lezer/common"
 import {LRLanguage} from "@codemirror/language"
 import {keywords as snowflakeKeywordsSchema, functions as snowflakeFunctionsSchema} from '../snowflake_schema.json';
+// import { keywords as skiKeywordsSchema } from '../ski_schema.json';
 import {LRParser} from '@lezer/lr';
 import {styleTags, tags} from "@lezer/highlight"
 
@@ -15,6 +16,10 @@ import {styleTags, tags} from "@lezer/highlight"
 
 let snowflakeKeywords: string[] = snowflakeKeywordsSchema.map((k) => k["name"]);
 let snowflakeFunctions: string[] = snowflakeFunctionsSchema.map((k) => k["name"]);
+// let skiKeywords: string[] = skiKeywordsSchema.map((k) => k["name"]);
+
+console.log("Activating editor!")
+
 /**
  * Define a "ski dialect" to include snowflake keywords + ski keywords
  */
@@ -23,8 +28,8 @@ let skiSnowflakeDialect = SQLDialect.define({
     doubleDollarQuotedStrings: true,
     operatorChars: "+-*/<>=~!@#%^&|`?",
     specialVar: "",
-    keywords:  snowflakeKeywords.join(" "),
-    types: snowflakeFunctions.join(" "),
+    keywords:  PostgreSQL.spec.keywords + snowflakeKeywords.join(" "),
+    types: PostgreSQL.spec.types + snowflakeFunctions.join(" "),
     slashComments: true
 });
 
