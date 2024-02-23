@@ -10,7 +10,8 @@ import {
   ICompletionProvider
 } from '@jupyterlab/completer';
 
-import { keywords } from './keywords.json';
+import {keywords as snowflakeKeywordsSchema, functions as snowflakeFunctionsSchema} from '../snowflake_schema.json';
+import { keywords as skiKeywordsSchema, sources as skiSources } from '../ski_schema.json';
 import {syntaxTree} from "@codemirror/language";
 
 /**
@@ -18,19 +19,41 @@ import {syntaxTree} from "@codemirror/language";
  */
 export class SQLCompleterProvider implements ICompletionProvider {
   constructor() {
-    console.log("buidling completer")
-    // Build the completion item from the JSON file.
-    this._items = keywords.map(item => {
+    console.log("Activating Completer")
+
+    this._items = []
+
+    // Add snowflake keywords
+    this._items = this._items.concat(snowflakeKeywordsSchema.map(item => {
       return {
-        label: item.value,
+        label: item.name.toUpperCase(),
         type: 'keyword'
       }
-    })
-    this._items.push({
-      label: 'aws_cloud_trail',
-        type: 'data source',
-      documentation: 'this is an interesting source!'
-    })
+    }))
+
+    // Add snowflake functions
+    this._items = this._items.concat(snowflakeFunctionsSchema.map(item => {
+      return {
+        label: item.name.toUpperCase(),
+        type: 'function'
+      }
+    }))
+
+    // Add ski keywords
+    this._items = this._items.concat(skiKeywordsSchema.map(item => {
+      return {
+        label: item.name,
+        type: 'keyword'
+      }
+    }))
+
+    // Add sources
+    this._items = this._items.concat(skiSources.map(item => {
+      return {
+        label: item.name,
+        type: 'source'
+      }
+    }))
   }
 
   /**
@@ -38,7 +61,6 @@ export class SQLCompleterProvider implements ICompletionProvider {
    * @param context - additional information about context of completion request
    */
   async isApplicable(context: ICompletionContext): Promise<boolean> {
-    console.log("applicable")
     return true;
   }
 
@@ -81,13 +103,15 @@ namespace Private {
     baseItems: CompletionHandler.ICompletionItem[]
   ): CompletionHandler.ICompletionItemsReply {
     // Find the token at the cursor
-    console.log(editor)
+
+
+    // This part is quite important, as its using resolveInner to get the inner (the sql) token, instead of the outer
+    // (python) token
     // @ts-ignore
     const tree = syntaxTree(editor.state);
     // @ts-ignore
     const inner = tree.resolveInner(editor.state.selection.main.head, -1);
 
-    console.log(inner)
     // const token = editor.getTokenAtCursor();
     // @ts-ignore
     let value = editor.state.sliceDoc(inner.from, inner.to)
@@ -113,11 +137,6 @@ namespace Private {
       );
     });
 
-    console.log({
-      start: token.offset,
-      end: token.offset + token.value.length,
-      items: items
-    })
     return {
       start: token.offset,
       end: token.offset + token.value.length,

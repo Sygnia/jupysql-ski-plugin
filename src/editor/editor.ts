@@ -14,8 +14,8 @@ import {styleTags, tags} from "@lezer/highlight"
  * https://discuss.codemirror.net/t/accessing-syntax-tree-of-nested-language-within-autocomplete/6499
  */
 
-let snowflakeKeywords: string[] = snowflakeKeywordsSchema.map((k) => k["name"]);
-let snowflakeFunctions: string[] = snowflakeFunctionsSchema.map((k) => k["name"]);
+let snowflakeKeywords: string[] = snowflakeKeywordsSchema.map((k) => k.name);
+let snowflakeFunctions: string[] = snowflakeFunctionsSchema.map((k) => k.name);
 // let skiKeywords: string[] = skiKeywordsSchema.map((k) => k["name"]);
 
 console.log("Activating editor!")

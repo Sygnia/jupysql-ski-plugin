@@ -30,6 +30,998 @@
     {
       "name": "v_list"
     }
+  ],
+  "sources": [
+    {
+      "name": "activities_cache"
+    },
+    {
+      "name": "alerts"
+    },
+    {
+      "name": "amcache"
+    },
+    {
+      "name": "apache"
+    },
+    {
+      "name": "apple_system_log"
+    },
+    {
+      "name": "archive"
+    },
+    {
+      "name": "asp_net"
+    },
+    {
+      "name": "auditbeat"
+    },
+    {
+      "name": "auth0"
+    },
+    {
+      "name": "authorized_keys"
+    },
+    {
+      "name": "avecto"
+    },
+    {
+      "name": "aws_alb"
+    },
+    {
+      "name": "aws_cloud_trail"
+    },
+    {
+      "name": "aws_cloud_trail_export"
+    },
+    {
+      "name": "aws_rds"
+    },
+    {
+      "name": "aws_rds_csv"
+    },
+    {
+      "name": "aws_vpc_flow"
+    },
+    {
+      "name": "aws_waf"
+    },
+    {
+      "name": "azure_event_hubs"
+    },
+    {
+      "name": "bash_history"
+    },
+    {
+      "name": "bitdefender"
+    },
+    {
+      "name": "bitdefender_quarantine"
+    },
+    {
+      "name": "blue_coat"
+    },
+    {
+      "name": "carbon_black"
+    },
+    {
+      "name": "carbon_black_binary_metadata"
+    },
+    {
+      "name": "carbon_black_procstart"
+    },
+    {
+      "name": "cato"
+    },
+    {
+      "name": "cb_binary_metadata"
+    },
+    {
+      "name": "cef_claroty"
+    },
+    {
+      "name": "cef_cyberark"
+    },
+    {
+      "name": "cef_f5_afm"
+    },
+    {
+      "name": "cef_fortigate"
+    },
+    {
+      "name": "cef_graylog"
+    },
+    {
+      "name": "cef_illusive"
+    },
+    {
+      "name": "cef_incapsula"
+    },
+    {
+      "name": "cef_iron_port"
+    },
+    {
+      "name": "cef_mdi"
+    },
+    {
+      "name": "cef_minerva"
+    },
+    {
+      "name": "cef_nozomi"
+    },
+    {
+      "name": "cef_office365"
+    },
+    {
+      "name": "cef_palo_alto"
+    },
+    {
+      "name": "cef_sentinelone"
+    },
+    {
+      "name": "cef_siga"
+    },
+    {
+      "name": "cef_simatic"
+    },
+    {
+      "name": "cef_solidcore"
+    },
+    {
+      "name": "cef_trend_micro"
+    },
+    {
+      "name": "checkpoint"
+    },
+    {
+      "name": "checkpoint_export"
+    },
+    {
+      "name": "checkpoint_graylog"
+    },
+    {
+      "name": "checkpoint_harmony"
+    },
+    {
+      "name": "checkpoint_payload"
+    },
+    {
+      "name": "chrome_autofill"
+    },
+    {
+      "name": "chromium_history"
+    },
+    {
+      "name": "chromium_tabs"
+    },
+    {
+      "name": "cisco_amp"
+    },
+    {
+      "name": "cisco_asa"
+    },
+    {
+      "name": "cisco_asa_export"
+    },
+    {
+      "name": "cisco_firepower"
+    },
+    {
+      "name": "cisco_meraki_firewall"
+    },
+    {
+      "name": "cisco_umbrella"
+    },
+    {
+      "name": "claroty_devices"
+    },
+    {
+      "name": "cloudflare"
+    },
+    {
+      "name": "cloudflare_firewall"
+    },
+    {
+      "name": "cloudflare_http"
+    },
+    {
+      "name": "cmdline_test"
+    },
+    {
+      "name": "console_host_history"
+    },
+    {
+      "name": "core_analytics"
+    },
+    {
+      "name": "cron"
+    },
+    {
+      "name": "crowdstrike"
+    },
+    {
+      "name": "crowdstrike_detections"
+    },
+    {
+      "name": "crowdstrike_device"
+    },
+    {
+      "name": "crowdstrike_incidents"
+    },
+    {
+      "name": "cryptnet_url_cache"
+    },
+    {
+      "name": "cyberark"
+    },
+    {
+      "name": "cylance_antivirus"
+    },
+    {
+      "name": "daniel_test"
+    },
+    {
+      "name": "default"
+    },
+    {
+      "name": "dir_list"
+    },
+    {
+      "name": "disk_image"
+    },
+    {
+      "name": "edge_history"
+    },
+    {
+      "name": "elasticsearch"
+    },
+    {
+      "name": "elf"
+    },
+    {
+      "name": "elk"
+    },
+    {
+      "name": "evt"
+    },
+    {
+      "name": "evtx"
+    },
+    {
+      "name": "extended_info_linux"
+    },
+    {
+      "name": "extended_info_osx"
+    },
+    {
+      "name": "extended_info_windows"
+    },
+    {
+      "name": "extra_hop"
+    },
+    {
+      "name": "f5_asm"
+    },
+    {
+      "name": "fat_archive"
+    },
+    {
+      "name": "filezilla"
+    },
+    {
+      "name": "fireeye_ex"
+    },
+    {
+      "name": "firefox_cookies"
+    },
+    {
+      "name": "firefox_form_history"
+    },
+    {
+      "name": "firefox_history"
+    },
+    {
+      "name": "fortigate"
+    },
+    {
+      "name": "fortigate_alerts"
+    },
+    {
+      "name": "fortisiem_alerts"
+    },
+    {
+      "name": "forti_edr"
+    },
+    {
+      "name": "fsevents"
+    },
+    {
+      "name": "fstab_linux"
+    },
+    {
+      "name": "gamarue_daniel"
+    },
+    {
+      "name": "gamereu"
+    },
+    {
+      "name": "gamereu "
+    },
+    {
+      "name": "gamereu _daniel"
+    },
+    {
+      "name": "gamereu _test_daniel"
+    },
+    {
+      "name": "generic"
+    },
+    {
+      "name": "generic_cef"
+    },
+    {
+      "name": "generic_leef"
+    },
+    {
+      "name": "github_enterprise"
+    },
+    {
+      "name": "global_accelerator"
+    },
+    {
+      "name": "google_cloud_logging"
+    },
+    {
+      "name": "google_workspace"
+    },
+    {
+      "name": "graylog_win_event"
+    },
+    {
+      "name": "group_linux"
+    },
+    {
+      "name": "group_policy"
+    },
+    {
+      "name": "guardduty"
+    },
+    {
+      "name": "haproxy"
+    },
+    {
+      "name": "hashes"
+    },
+    {
+      "name": "hostname_linux"
+    },
+    {
+      "name": "iam"
+    },
+    {
+      "name": "ias_vpn"
+    },
+    {
+      "name": "iboss"
+    },
+    {
+      "name": "identifi"
+    },
+    {
+      "name": "iis"
+    },
+    {
+      "name": "iis_advanced"
+    },
+    {
+      "name": "iis_failedrequest_xml"
+    },
+    {
+      "name": "incapsula_history"
+    },
+    {
+      "name": "indx_i30"
+    },
+    {
+      "name": "infoblox_dhcp"
+    },
+    {
+      "name": "infoblox_dns"
+    },
+    {
+      "name": "infoblox_rpz"
+    },
+    {
+      "name": "install_history"
+    },
+    {
+      "name": "interfaces_linux"
+    },
+    {
+      "name": "ironport"
+    },
+    {
+      "name": "jumplist"
+    },
+    {
+      "name": "known_hosts"
+    },
+    {
+      "name": "known_hosts_linux"
+    },
+    {
+      "name": "lastpass"
+    },
+    {
+      "name": "launchd"
+    },
+    {
+      "name": "leef_incapsula"
+    },
+    {
+      "name": "leef_watchguard"
+    },
+    {
+      "name": "leef_win_event"
+    },
+    {
+      "name": "leef_zscaler"
+    },
+    {
+      "name": "linux_audit"
+    },
+    {
+      "name": "linux_crond"
+    },
+    {
+      "name": "linux_ftpd"
+    },
+    {
+      "name": "linux_httpd"
+    },
+    {
+      "name": "linux_inetd"
+    },
+    {
+      "name": "linux_passwd"
+    },
+    {
+      "name": "linux_sshd"
+    },
+    {
+      "name": "linux_su"
+    },
+    {
+      "name": "linux_syslog"
+    },
+    {
+      "name": "lnk"
+    },
+    {
+      "name": "logstash"
+    },
+    {
+      "name": "machine_info"
+    },
+    {
+      "name": "machine_info_processes"
+    },
+    {
+      "name": "machine_info_services"
+    },
+    {
+      "name": "macho"
+    },
+    {
+      "name": "mac_install_log"
+    },
+    {
+      "name": "manual_default_source"
+    },
+    {
+      "name": "mappings_data"
+    },
+    {
+      "name": "mbox"
+    },
+    {
+      "name": "mcafee_application_control"
+    },
+    {
+      "name": "mcafee_epo"
+    },
+    {
+      "name": "mcafee_ips"
+    },
+    {
+      "name": "mft"
+    },
+    {
+      "name": "microsoft_atp_device_alert_events"
+    },
+    {
+      "name": "microsoft_atp_device_events"
+    },
+    {
+      "name": "microsoft_atp_device_file_events"
+    },
+    {
+      "name": "microsoft_atp_device_image_load_events"
+    },
+    {
+      "name": "microsoft_atp_device_info"
+    },
+    {
+      "name": "microsoft_atp_device_logon_events"
+    },
+    {
+      "name": "microsoft_atp_device_network_events"
+    },
+    {
+      "name": "microsoft_atp_device_network_info"
+    },
+    {
+      "name": "microsoft_atp_device_process_events"
+    },
+    {
+      "name": "microsoft_atp_device_registry_events"
+    },
+    {
+      "name": "microsoft_atp_generic"
+    },
+    {
+      "name": "microsoft_directory_audits"
+    },
+    {
+      "name": "microsoft_identity_risk_events"
+    },
+    {
+      "name": "microsoft_protection_logs"
+    },
+    {
+      "name": "microsoft_rds"
+    },
+    {
+      "name": "microsoft_security_alerts"
+    },
+    {
+      "name": "microsoft_sign_ins"
+    },
+    {
+      "name": "microsoft_sql_server"
+    },
+    {
+      "name": "microsoft_tmg"
+    },
+    {
+      "name": "moose"
+    },
+    {
+      "name": "msexchange_admin_audit"
+    },
+    {
+      "name": "msexchange_mailbox_audit"
+    },
+    {
+      "name": "msexchange_message_tracking"
+    },
+    {
+      "name": "msi"
+    },
+    {
+      "name": "named"
+    },
+    {
+      "name": "netscaler"
+    },
+    {
+      "name": "new_sumo_win_event"
+    },
+    {
+      "name": "nginx"
+    },
+    {
+      "name": "novell"
+    },
+    {
+      "name": "office365_management"
+    },
+    {
+      "name": "office_document"
+    },
+    {
+      "name": "one_password"
+    },
+    {
+      "name": "oracle_audit"
+    },
+    {
+      "name": "oracle_connections"
+    },
+    {
+      "name": "osquery"
+    },
+    {
+      "name": "osx_quarantine_events"
+    },
+    {
+      "name": "packetbeat"
+    },
+    {
+      "name": "paloalto"
+    },
+    {
+      "name": "paloalto_traps"
+    },
+    {
+      "name": "paradigm_db2"
+    },
+    {
+      "name": "passwd_linux"
+    },
+    {
+      "name": "pca_app_launch"
+    },
+    {
+      "name": "pdf_document"
+    },
+    {
+      "name": "pe"
+    },
+    {
+      "name": "powershell_transcript"
+    },
+    {
+      "name": "prefetch"
+    },
+    {
+      "name": "ps_transcript"
+    },
+    {
+      "name": "pure_ftpd"
+    },
+    {
+      "name": "python"
+    },
+    {
+      "name": "qex_db_query"
+    },
+    {
+      "name": "qex_mssql"
+    },
+    {
+      "name": "qex_oracle"
+    },
+    {
+      "name": "qradar_alert_export"
+    },
+    {
+      "name": "qradar_aws_export"
+    },
+    {
+      "name": "qradar_checkpoint_export"
+    },
+    {
+      "name": "qradar_epm_export"
+    },
+    {
+      "name": "qradar_firepower"
+    },
+    {
+      "name": "qradar_mcafee_export"
+    },
+    {
+      "name": "qradar_sep_export"
+    },
+    {
+      "name": "qradar_umbrella"
+    },
+    {
+      "name": "quarantine_bup"
+    },
+    {
+      "name": "quarantine_defender"
+    },
+    {
+      "name": "quarantine_sep"
+    },
+    {
+      "name": "rdp_cache"
+    },
+    {
+      "name": "reblaze_waf"
+    },
+    {
+      "name": "recently_used"
+    },
+    {
+      "name": "recent_file_cache"
+    },
+    {
+      "name": "recycle_bin"
+    },
+    {
+      "name": "redis"
+    },
+    {
+      "name": "registry_appinit"
+    },
+    {
+      "name": "registry_bam"
+    },
+    {
+      "name": "registry_classes_installer"
+    },
+    {
+      "name": "registry_image_file_execution_options"
+    },
+    {
+      "name": "registry_installed_programs"
+    },
+    {
+      "name": "registry_key"
+    },
+    {
+      "name": "registry_lsa_packages"
+    },
+    {
+      "name": "registry_mapped_network_drives"
+    },
+    {
+      "name": "registry_mata_backdoor_ioc"
+    },
+    {
+      "name": "registry_metadata"
+    },
+    {
+      "name": "registry_misp_iocs"
+    },
+    {
+      "name": "registry_ntuser_persistence"
+    },
+    {
+      "name": "registry_office_trust_records"
+    },
+    {
+      "name": "registry_putty_connections"
+    },
+    {
+      "name": "registry_ras_tracing"
+    },
+    {
+      "name": "registry_recent_docs"
+    },
+    {
+      "name": "registry_runmru"
+    },
+    {
+      "name": "registry_safeboot"
+    },
+    {
+      "name": "registry_sam"
+    },
+    {
+      "name": "registry_services"
+    },
+    {
+      "name": "registry_shares"
+    },
+    {
+      "name": "registry_shellbags"
+    },
+    {
+      "name": "registry_software_persistence"
+    },
+    {
+      "name": "registry_sysinternals"
+    },
+    {
+      "name": "registry_terminal_server"
+    },
+    {
+      "name": "registry_timezone_data"
+    },
+    {
+      "name": "registry_tsclient"
+    },
+    {
+      "name": "registry_typed_urls"
+    },
+    {
+      "name": "registry_usbstor"
+    },
+    {
+      "name": "registry_user_assist"
+    },
+    {
+      "name": "registry_user_sids"
+    },
+    {
+      "name": "registry_wdigest"
+    },
+    {
+      "name": "registry_windows_defender"
+    },
+    {
+      "name": "registry_winrar"
+    },
+    {
+      "name": "registry_winscp_saved_sessions"
+    },
+    {
+      "name": "registry_winver"
+    },
+    {
+      "name": "registry_word_wheel_query"
+    },
+    {
+      "name": "robin_test_command"
+    },
+    {
+      "name": "rt_flow"
+    },
+    {
+      "name": "safari_history"
+    },
+    {
+      "name": "sandbox"
+    },
+    {
+      "name": "sap_access"
+    },
+    {
+      "name": "scheduled_task"
+    },
+    {
+      "name": "script"
+    },
+    {
+      "name": "security_descriptor"
+    },
+    {
+      "name": "shadow_linux"
+    },
+    {
+      "name": "shimcache"
+    },
+    {
+      "name": "sonicwall"
+    },
+    {
+      "name": "sophos_alerts"
+    },
+    {
+      "name": "sophos_events"
+    },
+    {
+      "name": "sophos_firewall"
+    },
+    {
+      "name": "sources_info"
+    },
+    {
+      "name": "splunk_audit"
+    },
+    {
+      "name": "splunk_evtx"
+    },
+    {
+      "name": "sql_audit"
+    },
+    {
+      "name": "squid"
+    },
+    {
+      "name": "srum"
+    },
+    {
+      "name": "ssh_config"
+    },
+    {
+      "name": "startupinfo"
+    },
+    {
+      "name": "strings"
+    },
+    {
+      "name": "sudoers_linux"
+    },
+    {
+      "name": "sumo_mac_audit"
+    },
+    {
+      "name": "sybase"
+    },
+    {
+      "name": "symantec_endpoint_protection"
+    },
+    {
+      "name": "systemd_logind"
+    },
+    {
+      "name": "timeline"
+    },
+    {
+      "name": "timezone_linux"
+    },
+    {
+      "name": "trash_bin"
+    },
+    {
+      "name": "trend_micro"
+    },
+    {
+      "name": "user_access_logging"
+    },
+    {
+      "name": "usnjournal"
+    },
+    {
+      "name": "utmp"
+    },
+    {
+      "name": "varmour"
+    },
+    {
+      "name": "vasco_identikey"
+    },
+    {
+      "name": "velocity_updates"
+    },
+    {
+      "name": "wer_report"
+    },
+    {
+      "name": "windows_minidump"
+    },
+    {
+      "name": "windows_search_db"
+    },
+    {
+      "name": "winevt"
+    },
+    {
+      "name": "winevtx"
+    },
+    {
+      "name": "winevtx_application"
+    },
+    {
+      "name": "winevtx_error"
+    },
+    {
+      "name": "winevtx_other"
+    },
+    {
+      "name": "winevtx_powershell"
+    },
+    {
+      "name": "winevtx_security"
+    },
+    {
+      "name": "winevtx_sysmon"
+    },
+    {
+      "name": "winevtx_system"
+    },
+    {
+      "name": "win_dhcp"
+    },
+    {
+      "name": "win_notificationdb_handlers"
+    },
+    {
+      "name": "win_notificationdb_notifications"
+    },
+    {
+      "name": "wmi_repository"
+    },
+    {
+      "name": "yara_scan_result"
+    },
+    {
+      "name": "zsh_history"
+    }
   ]
 }
 
