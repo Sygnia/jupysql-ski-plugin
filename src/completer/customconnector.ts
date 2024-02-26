@@ -10,9 +10,30 @@ import {
   ICompletionProvider
 } from '@jupyterlab/completer';
 
+import colors from 'ansi-colors'
 import {keywords as snowflakeKeywordsSchema, functions as snowflakeFunctionsSchema} from '../snowflake_schema.json';
 import { keywords as skiKeywordsSchema, sources as skiSources } from '../ski_schema.json';
 import {syntaxTree} from "@codemirror/language";
+
+function buildDocumentation(item : {name: string, args?: string, url?: string, desc?:string}): string {
+  let result = ""
+  if (item.hasOwnProperty('args')) {
+    result += item.name.toUpperCase() + `(${item.args})` + "\n\n"
+  }
+
+
+  console.log(item)
+  if (item.hasOwnProperty('desc')) {
+    result += colors.green(item.desc) + "\n\n"
+  }
+
+  if (item.hasOwnProperty('url')) {
+    result += item.url
+  }
+
+  return result
+
+}
 
 /**
  * A custom connector for completion handlers.
@@ -27,7 +48,8 @@ export class SQLCompleterProvider implements ICompletionProvider {
     this._items = this._items.concat(snowflakeKeywordsSchema.map(item => {
       return {
         label: item.name.toUpperCase(),
-        type: 'keyword'
+        type: 'keyword',
+        documentation: buildDocumentation(item)
       }
     }))
 
@@ -35,7 +57,8 @@ export class SQLCompleterProvider implements ICompletionProvider {
     this._items = this._items.concat(snowflakeFunctionsSchema.map(item => {
       return {
         label: item.name.toUpperCase(),
-        type: 'function'
+        type: 'function',
+        documentation: buildDocumentation(item)
       }
     }))
 
@@ -43,7 +66,8 @@ export class SQLCompleterProvider implements ICompletionProvider {
     this._items = this._items.concat(skiKeywordsSchema.map(item => {
       return {
         label: item.name,
-        type: 'keyword'
+        type: 'keyword',
+        documentation: buildDocumentation(item)
       }
     }))
 
@@ -51,7 +75,8 @@ export class SQLCompleterProvider implements ICompletionProvider {
     this._items = this._items.concat(skiSources.map(item => {
       return {
         label: item.name,
-        type: 'source'
+        type: 'source',
+        documentation: buildDocumentation(item)
       }
     }))
   }

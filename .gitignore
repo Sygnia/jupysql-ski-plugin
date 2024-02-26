@@ -1,6 +1,6 @@
 # yarn
 .yarn
-
+.idea/
 # testing data
 .ini
 .nox

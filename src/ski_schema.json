@@ -10,7 +10,8 @@
       "name": "v_ip_to_cidr"
     },
     {
-      "name": "v_is_private_ip"
+      "name": "v_is_private_ip",
+      "desc":"convert ip and mask to cidr. for example\n    v_ip_to_cidr('201.64.19.251', 24) = '201.64.19.0/24'"
     },
     {
       "name": "v_in_cidr"
