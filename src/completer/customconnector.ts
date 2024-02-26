@@ -16,13 +16,19 @@ import { keywords as skiKeywordsSchema, sources as skiSources } from '../ski_sch
 import {syntaxTree} from "@codemirror/language";
 
 function buildDocumentation(item : {name: string, args?: string, url?: string, desc?:string}): string {
+  /**
+   * Build the documentation panel to be presented when autocompleting certain items
+   * The default renderer of the Jupyter completer santizes the documentation panel, and by default only allows
+   * strings, and ansi color codes for some basic coloring.
+   *
+   * If we want a more rich documentation panel, it's possible to specifiy a renderer with a custom createDocumenationNode
+   * method.
+   */
   let result = ""
   if (item.hasOwnProperty('args')) {
     result += item.name.toUpperCase() + `(${item.args})` + "\n\n"
   }
 
-
-  console.log(item)
   if (item.hasOwnProperty('desc')) {
     result += colors.green(item.desc) + "\n\n"
   }
@@ -32,7 +38,6 @@ function buildDocumentation(item : {name: string, args?: string, url?: string, d
   }
 
   return result
-
 }
 
 /**

@@ -7,6 +7,8 @@ conda env create  -f environment.yml -y
 ```
 
 Bump the version using `hatch`. See the docs on [hatch-nodejs-version](https://github.com/agoose77/hatch-nodejs-version#semver) for details.
+Sygnia fork - Note that we are using a completly different version (5.4.2) than what is published in the original one, to keep the same
+name of package but make sure we are getting the fork from the private PyPI and not the original package.
 
 ```bash
 NEW_VERSION='NEW_VERSION'
@@ -42,3 +44,5 @@ Then to upload the package to PyPI, do:
 ```bash
 twine upload dist/*
 ```
+
+Sygnia fork - authenticate to twine by adding `-u build -p <token>` to the command
