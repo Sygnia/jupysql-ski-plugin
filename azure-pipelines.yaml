@@ -1,0 +1,104 @@
+name: jupysql-ski-plugin-ci-$(branchName)-$(Date:yyyyMMdd)$(Rev:.rr)
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: Sygnia/shared-library
+      endpoint: githubAccessTokenEndpoint
+      ref: refs/heads/master
+
+variables:
+  - template: azure/shared-variables.yml@templates
+  - group: tokens
+  - name: packageName
+    value: jupysql-plugin
+  - name: packageDisplayName
+    value: jupysql-plugin
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - beta/*
+      - master
+  paths:
+    exclude:
+      - CODEOWNERS
+      - README.md
+      - renovate.json
+
+pr:
+  drafts: true
+  branches:
+    exclude:
+      - beta/*
+  paths:
+    exclude:
+      - CODEOWNERS
+      - README.md
+      - renovate.json
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: build
+    displayName: "Build"
+    jobs:
+      - job: build
+        displayName: "Build"
+        timeoutInMinutes: 60
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: '3.11'
+              addToPath: True
+
+          - task: UseNode@1
+            inputs:
+              version: '21.x'
+            displayName: 'Install Node.js'
+
+          - bash: |
+              pip install --upgrade setuptools
+              pip install build wheel
+              python -m build -o $(Build.ArtifactStagingDirectory)
+            displayName: "Build package"
+
+          - task: PublishBuildArtifacts@1
+            displayName: "Publish package wheel artifact"
+            inputs:
+              pathToPublish: $(Build.ArtifactStagingDirectory)
+              artifactName: dist
+              publishLocation: Container
+
+#  - stage: publish
+#    displayName: "Publish"
+#    dependsOn: [build]
+#    condition: |
+#      and(
+#        eq(dependencies.build.result, 'Succeeded'),
+#        or(eq(variables['isMaster'], True), eq(variables['isBetaBranch'], True))
+#      )
+#    jobs:
+#      - job: publish
+#        displayName: "Publish"
+#        timeoutInMinutes: 60
+#        steps:
+#          - checkout: none
+#
+#          - template: azure/release-package.yml@templates
+#            parameters:
+#              packageName: ${{variables.packageName}}
+#              packageDisplayName: ${{variables.packageDisplayName}}
+#
+#  - template: azure/pipeline-summary.yml@templates
+#    parameters:
+#      channel: "#${{variables.packageDisplayName}}-ci"
+#      dependsOn: [build, publish]
+#      successCondition: |
+#        and(
+#          eq(dependencies.build.result, 'Succeeded'),
+#          in(dependencies.publish.result, 'Succeeded', 'Skipped')
+#        )
