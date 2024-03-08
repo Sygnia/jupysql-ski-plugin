@@ -7,11 +7,12 @@
       "name": "v_sources"
     },
     {
-      "name": "v_ip_to_cidr"
+      "name": "v_ip_to_cidr",
+      "desc": "Convert ip and mask to cidr. for example\n    v_ip_to_cidr('201.64.19.251', 24) = '201.64.19.0/24'"
     },
     {
       "name": "v_is_private_ip",
-      "desc":"convert ip and mask to cidr. for example\n    v_ip_to_cidr('201.64.19.251', 24) = '201.64.19.0/24'"
+      "desc": "Checks if an IP address is private. \n see more at: https://en.wikipedia.org/wiki/Private_network"
     },
     {
       "name": "v_in_cidr"
@@ -20,7 +21,8 @@
       "name": "v_last"
     },
     {
-      "name": "v_nested_search"
+      "name": "v_nested_search",
+      "desc": "Udf to do complex search in nested object:\n\n    Usage in SQl query:\n        SELECT\n        FROM\n        WHERE v_nested_search(<nested_object>, [ [<action>, <key>, <value>] , [<action>, <key>, <value> ]]\n\n\n     Available actions:\n        - gt\n        - gte\n        - lt\n        - lte\n        - equal\n        - not_equal\n        - in\n        - not_in\n        - like\n        - like_any\n        - ilike\n        - ilike_any\n        - regex\n        - regex_any\n\n    Usage examples:\n        SELECT _data['Parameters']\n        FROM _office365_management\n        WHERE  v_nested_search(\n             _data['Parameters'],\n            [\n                ['rlike', 'Name','^Force$'],\n                ['ilike','Value','true' ]\n            ]\n        )\n        and\n        v_nested_search(\n            _data['Parameters'],\n            [\n                [ 'equal', 'Name','MoveToFolder']\n            ]\n        )\n\n    \"\"\""
     },
     {
       "name": "v_nested_values"
