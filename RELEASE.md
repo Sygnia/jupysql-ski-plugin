@@ -7,7 +7,7 @@ conda env create  -f environment.yml -y
 ```
 
 Bump the version using `hatch`. See the docs on [hatch-nodejs-version](https://github.com/agoose77/hatch-nodejs-version#semver) for details.
-Sygnia fork - Note that we are using a completly different version (5.4.X) than what is published in the original one, to keep the same
+Sygnia fork - Note that we are using a completly different version (5.4.X) than what is published in the original one (0.4.X), to keep the same
 name of package but make sure we are getting the fork from the private PyPI and not the original package.
 
 ```bash
