@@ -12,7 +12,7 @@ variables:
   - template: azure/shared-variables.yml@templates
   - group: tokens
   - name: packageName
-    value: jupysql-plugin
+    value: jupysql_plugin
   - name: packageDisplayName
     value: jupysql-plugin
 
