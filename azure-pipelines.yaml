@@ -14,7 +14,7 @@ variables:
   - name: packageName
     value: jupysql_plugin
   - name: packageDisplayName
-    value: jupysql-plugin
+    value: jupysql-ski-plugin
 
 
 trigger:
