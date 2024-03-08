@@ -73,32 +73,32 @@ stages:
               artifactName: dist
               publishLocation: Container
 
-#  - stage: publish
-#    displayName: "Publish"
-#    dependsOn: [build]
-#    condition: |
-#      and(
-#        eq(dependencies.build.result, 'Succeeded'),
-#        or(eq(variables['isMaster'], True), eq(variables['isBetaBranch'], True))
-#      )
-#    jobs:
-#      - job: publish
-#        displayName: "Publish"
-#        timeoutInMinutes: 60
-#        steps:
-#          - checkout: none
-#
-#          - template: azure/release-package.yml@templates
-#            parameters:
-#              packageName: ${{variables.packageName}}
-#              packageDisplayName: ${{variables.packageDisplayName}}
-#
-#  - template: azure/pipeline-summary.yml@templates
-#    parameters:
-#      channel: "#${{variables.packageDisplayName}}-ci"
-#      dependsOn: [build, publish]
-#      successCondition: |
-#        and(
-#          eq(dependencies.build.result, 'Succeeded'),
-#          in(dependencies.publish.result, 'Succeeded', 'Skipped')
-#        )
+  - stage: publish
+    displayName: "Publish"
+    dependsOn: [build]
+    condition: |
+      and(
+        eq(dependencies.build.result, 'Succeeded'),
+        or(eq(variables['isMaster'], True), eq(variables['isBetaBranch'], True))
+      )
+    jobs:
+      - job: publish
+        displayName: "Publish"
+        timeoutInMinutes: 60
+        steps:
+          - checkout: none
+
+          - template: azure/release-package.yml@templates
+            parameters:
+              packageName: ${{variables.packageName}}
+              packageDisplayName: ${{variables.packageDisplayName}}
+
+  - template: azure/pipeline-summary.yml@templates
+    parameters:
+      channel: "#${{variables.packageDisplayName}}-ci"
+      dependsOn: [build, publish]
+      successCondition: |
+        and(
+          eq(dependencies.build.result, 'Succeeded'),
+          in(dependencies.publish.result, 'Succeeded', 'Skipped')
+        )
