@@ -1,10 +1,28 @@
 {
   "keywords": [
     {
-      "name": "v_name"
+      "name": "v_name",
+      "desc": "A utility function that allows accessing fields with convenient dot notation, without the need for aliasing or casting"
     },
     {
-      "name": "v_sources"
+      "name": "v_list",
+      "desc": "Turns a Python list into an SQL tuple. Example usage:\n\n https://cdn.velocityapp.co/advanced_search_docs/ski_api_reference/v_utils.html#v-list"
+    },
+    {
+      "name": "v_token_match",
+      "desc": "Receives a list of values, and searches in it a string that contains the value as a whole word. Useful when the word we’re searching can appear after non letters or digits (space or punctuation mark), but we don’t want to find it as a part of a longer word.\n\n"
+    },
+    {
+      "name": "v_last",
+      "desc": "Gets as an argument a date math expression and returns the date that matches the date math.\n\n For supported formats see docs: https://cdn.velocityapp.co/advanced_search_docs/ski_api_reference/v_utils.html#v-last"
+    },
+    {
+      "name": "v_free_text",
+      "desc": "Gets as an argument a search term / list of search terms and performs a LIKE search on the _FULL_TEXT column, with an OR condition between all search terms.\n To achieve an AND condition between searches simply add another v_free_text clause. The _FULL_TEXT column contains all the values of the record, concatenated and in lower case.\n\n"
+    },
+    {
+      "name": "v_sources",
+      "desc": "v_sources is a utility that allows users to query multiple sources at a time.\n\n See docs: https://cdn.velocityapp.co/advanced_search_docs/ski_api_reference/v_utils.html#v-sources"
     },
     {
       "name": "v_ip_to_cidr",
@@ -15,23 +33,16 @@
       "desc": "Checks if an IP address is private. \n see more at: https://en.wikipedia.org/wiki/Private_network"
     },
     {
-      "name": "v_in_cidr"
-    },
-    {
-      "name": "v_last"
+      "name": "v_in_cidr",
+      "desc": "A User Defined Function (UDF) that allows users to filter by CIDR on IP fields. Filter can be done by a string of one IP or more."
     },
     {
       "name": "v_nested_search",
       "desc": "Udf to do complex search in nested object:\n\n    Usage in SQl query:\n        SELECT\n        FROM\n        WHERE v_nested_search(<nested_object>, [ [<action>, <key>, <value>] , [<action>, <key>, <value> ]]\n\n\n     Available actions:\n        - gt\n        - gte\n        - lt\n        - lte\n        - equal\n        - not_equal\n        - in\n        - not_in\n        - like\n        - like_any\n        - ilike\n        - ilike_any\n        - regex\n        - regex_any\n\n    Usage examples:\n        SELECT _data['Parameters']\n        FROM _office365_management\n        WHERE  v_nested_search(\n             _data['Parameters'],\n            [\n                ['rlike', 'Name','^Force$'],\n                ['ilike','Value','true' ]\n            ]\n        )\n        and\n        v_nested_search(\n            _data['Parameters'],\n            [\n                [ 'equal', 'Name','MoveToFolder']\n            ]\n        )\n\n    \"\"\""
     },
     {
-      "name": "v_nested_values"
-    },
-    {
-      "name": "v_sources"
-    },
-    {
-      "name": "v_list"
+      "name": "v_nested_values",
+      "desc": "A User Defined Function (UDF) that allows users to display nested values in SELECT clauses.\n\n Usage: https://cdn.velocityapp.co/advanced_search_docs/ski_api_reference/v_utils.html#v-nested-values"
     }
   ],
   "sources": [
@@ -351,12 +362,6 @@
       "name": "gamereu "
     },
     {
-      "name": "gamereu _daniel"
-    },
-    {
-      "name": "gamereu _test_daniel"
-    },
-    {
       "name": "generic"
     },
     {
@@ -595,9 +600,6 @@
     },
     {
       "name": "microsoft_tmg"
-    },
-    {
-      "name": "moose"
     },
     {
       "name": "msexchange_admin_audit"
