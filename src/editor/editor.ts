@@ -142,7 +142,7 @@ const skiPythonLRLanguage = LRLanguage.define({
             stringPrefixes: ["f", "fr", "rf", "r", "u", "b", "br", "rb",
                 "F", "FR", "RF", "R", "U", "B", "BR", "RB"]
         },
-        commentTokens: { line: "-" },
+        commentTokens: { line: "#" },
         indentOnInput: /^\s*([\}\]\)]|else:|elif |except |finally:)$/
     }
 })
