@@ -78,6 +78,7 @@ export class JupyterlabNotebookCodeFormatter {
                     try {
                         const query = format(sqlCommand[1], { language: 'sql', keywordCase: 'upper' })
                         console.log(query)
+                        // Replace the original code line with a formatted query
                         cell.model.sharedModel.source = text.replace(sqlCommand[1], query)
                     } catch (error) {
                     }

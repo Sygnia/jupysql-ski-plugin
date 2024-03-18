@@ -167,6 +167,7 @@ namespace Private {
       );
     });
 
+    // The start of the completed token, the end, and the completed items
     return {
       start: token.offset,
       end: token.offset + token.value.length,
