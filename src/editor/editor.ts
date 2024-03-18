@@ -1,6 +1,7 @@
 import {Extension} from "@codemirror/state"
 import {sql, SQLDialect,PostgreSQL} from '@codemirror/lang-sql'
-import {parser as pythonParser} from '@lezer/python'
+import { pythonLanguage } from '@codemirror/lang-python'
+// import {parser as pythonParser} from '@lezer/python'
 import {parseMixed} from "@lezer/common"
 import {LRLanguage} from "@codemirror/language"
 import {keywords as snowflakeKeywordsSchema, functions as snowflakeFunctionsSchema} from '../snowflake_schema.json';
@@ -41,10 +42,8 @@ const sqlLang = sql(config);
 
 function skiPython() {
 
-    const mixedPythonLanguage = pythonParser.configure({
+    const mixedPythonLanguage = pythonLanguage.parser.configure({
         wrap: parseMixed((node, input) => {
-
-
             const nodeIsAcceptedStringType =
                 node.name === 'String' || node.name === 'FormatString';
 
@@ -135,7 +134,17 @@ const skiParser = skiPython();
 
 
 const skiPythonLRLanguage = LRLanguage.define({
-    parser: skiParser
+    parser: skiParser,
+    // Keep settings from the python language (copied from their source)
+    languageData: {
+        closeBrackets: {
+            brackets: ["(", "[", "{", "'", '"', "'''", '"""'],
+            stringPrefixes: ["f", "fr", "rf", "r", "u", "b", "br", "rb",
+                "F", "FR", "RF", "R", "U", "B", "BR", "RB"]
+        },
+        commentTokens: { line: "-" },
+        indentOnInput: /^\s*([\}\]\)]|else:|elif |except |finally:)$/
+    }
 })
 
 
