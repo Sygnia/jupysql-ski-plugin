@@ -1,7 +1,7 @@
 jupyterlab>=4,<4.0.12
 build
 twine
-hatch
+hatch==1.22.0
 pytest
 pytest-jupyter[server] # for testing the server extension
 duckdb-engine
